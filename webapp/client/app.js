@@ -17,7 +17,8 @@ if ( Meteor.isClient ) {
 			});
 		});
 	Now becomes:
-	*/
+	*
+
 	Template.body.rendered = function(){
 		if (!this.renderedOnce){
 			console.log("On document ready..");
@@ -33,9 +34,6 @@ if ( Meteor.isClient ) {
 			this.renderedOnce=true;
 		}
 	}; 
-
-	Template.body.events({
-		
-	});
+	*/
 }
 

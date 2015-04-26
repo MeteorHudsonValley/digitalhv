@@ -311,3 +311,8 @@ small.text-muted {
     padding-left:3px;
   }
 }
+
+.welcome{
+  margin: 0px !important;
+  padding: 0px !important;
+}

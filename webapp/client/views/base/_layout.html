@@ -1,0 +1,24 @@
+<!-- Default Layout -->
+<template name="layout">
+
+  <!-- SPA Header (top of page) -->
+  <div id="appHeader">
+  {{> yield "appHeader"}}
+  </div>
+
+  <!-- SPA Nav (sidebar) -->
+  <div id="appNav">
+    {{> yield "appNav"}}
+  </div>
+
+  <!-- SPA Main (contents) -->
+  <div id="appMain">
+    {{> yield "appMain"}}
+  </div>
+
+  <!-- SPA Header (top of page) -->
+  <footer class="footer" id="appFooter">
+    {{> yield "appFooter"}}
+  </footer>
+
+</template>

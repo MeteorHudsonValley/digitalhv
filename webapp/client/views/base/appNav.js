@@ -1,4 +1,4 @@
-Template.sidebar.rendered = function(){
+Template.appNav.rendered = function(){
 
 	$("#menu-close").click(function(e) {
 	    e.preventDefault();

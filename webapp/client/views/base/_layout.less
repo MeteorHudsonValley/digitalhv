@@ -1,0 +1,117 @@
+@base-bg: #3F51B5;
+@base-bg-accent: #E91E63;
+@base-bg-default: #2c3e50;
+
+@base-color: white;
+@base-link-color: white;
+
+@color-indigo: #3F51B5;
+@color-teal: #009688;
+
+/* Top level */
+#appNav{
+
+	margin-top: 60px !important;
+	margin-right: 0px;
+	background-color: @base-bg !important;
+	color: white !important;
+	font-size: 1.1em !important;
+	padding: 0px;
+
+	.sidebar-brand{
+		background-color: @base-bg-accent !important;	
+		color: white !important;
+		font-size: 1.1em !important;
+		margin-bottom: 15px !important;	
+	}
+
+	.sidebar-brand a, .btn-light{
+		background-color: inherit !important;
+		color: yellow !important;
+	}	
+
+	#sidebar-wrapper{
+		z-index: 2 !important;
+		height: 350px !important;
+	}
+
+	#menu-toggle{
+		background-color: @base-bg-accent !important;
+		z-index: 2 !important;
+		margin-top: 60px !important;
+		margin-right: 0px;
+	}
+}
+
+#appHeader{
+	font-size: 1.2em !important;
+
+	.container {
+		margin-left: 10px;
+	}
+
+	.navbar-fixed-top{
+		z-index: 10 !important;
+	}
+
+	.navbar-brand:hover, .navbar-brand:focus {
+		color: @base-bg-accent !important;	
+	}
+
+	#appLogo{
+		font-size: 1.3em !important;
+	}
+
+	.fa-heart{
+		color: @base-bg-accent !important;	
+	}
+
+	button.navbar-toggle {
+		background-color: @base-bg-accent !important;
+		border-color: transparent !important;
+		color: white !important;
+		font-size: 1.1em !important;
+		margin-right: 0px;
+		padding: 2px;
+		padding-right: 13px;
+		padding-left: 13px;
+	}
+
+	.navbar-default{
+		background-color: @base-bg !important;	
+	}
+
+	.active a {
+		background-color: @base-bg-accent !important;
+	}
+}
+
+#appMain{
+	padding-top:75px;
+}
+
+#appFooter {
+
+	.navbar {
+		min-height: 40px;
+	}
+	.navbar-default{
+		background-color: @base-bg !important;	
+		color: white !important;
+		padding: 0px !important;
+	}
+
+	a {
+		color: white !important;
+	}
+
+	.active a {
+		background-color: @base-bg-accent !important;
+	}
+
+	#appSocial {
+		padding-top: 10px !important;
+		padding-left: 30px !important;
+		padding-right: 30px !important;
+	}
+}

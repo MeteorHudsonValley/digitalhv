@@ -44,8 +44,7 @@ Router.onBeforeAction(function () {
   } 
   else {
     this.next();
-  }
-  
+  }  
 }, 
 {
   except: [
@@ -65,10 +64,12 @@ Router.onBeforeAction(function () {
 //----------------------------------------
 Router.route('/home', function () {
   this.layout('layout');
+  /*
   this.render('appNav',   {to: 'appNav'});
   this.render('appHeader',  {to: 'appHeader'});
   this.render('appFooter',  {to: 'appFooter'});
   this.render('portfolio',  {to: "appMain"});
+  */
 });
 
 Router.route('/welcome', function () {
@@ -78,3 +79,22 @@ Router.route('/welcome', function () {
 Router.route('/', function () {
   this.render('content', {to: "appMain"});
 });
+
+Router.route('/regions', function () {
+  Session.set("sidebar.type","regions.all");
+});
+
+Router.route('/regions/:_id', function () {
+  Session.set("sidebar.type","regions."+this.params._id);
+});
+
+Router.route('/counties', function () {
+  Session.set("sidebar.subtype","counties.all");
+  this.render('content', {to: "appMain"});
+});
+
+Router.route('/counties/:_id', function () {
+  Session.set("sidebar.subtype","counties."+this.params._id);
+  this.render('content', {to: "appMain"});
+});
+

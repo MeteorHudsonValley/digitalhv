@@ -18,8 +18,6 @@ DataNY.Regions = {
 	}
 }
 
-
-
 Debug = {
 	log : function(src, msg, data){
 		console.log("[datany/" + (src || "-") +"] "+msg, 
@@ -34,11 +32,10 @@ String.prototype.capitalizeFirst = function() {
     return this.charAt(0).toUpperCase() + this.slice(1);
 }
 
+
 //--------------------------------------------
 // Meteor Startup Init (Common)
 //--------------------------------------------
 Meteor.startup(function(){
-
-	Debug.log("shared/init","Initialized ");
-	
+	Debug.log("shared/init","Initialized ");	
 });

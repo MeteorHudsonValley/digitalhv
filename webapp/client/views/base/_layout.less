@@ -1,36 +1,125 @@
 @base-bg: #3F51B5;
 @base-bg-accent: #E91E63;
-@base-bg-default: #2c3e50;
+@base-bg-default: #2c3e50; /* #2c3e50; */
 
-@base-color: white;}
-@base-link-color: white;}
+@base-color: white;
+@base-link-color: white;
 
 @color-indigo: #3F51B5;
 @color-teal: #009688;
+@color-darkgray: #2c3e50;
+
+@color-business : #F44336;
+@color-restaurants : #9C27B0;
+@color-local : #3F51B5;
+@color-events : #03A9F4;
+@color-people : #009688;
+@color-jobs: #795548;
+
+@color-upperhv : #E91E63;
+@color-midhv : #673AB7;
+@color-lowerhv : #4CAF50;
+
+@color-columbia : #F44336;
+@color-greene : #9C27B0;
+@color-rensselaer : #3F51B5; 
+@color-albany : #03A9F4 ;
+@color-westchester : #CDDC39;
+@color-rockland : #009688;
+@color-putnam : #795548;
+@color-dutchess : #FF5722;
+@color-orange : #9E9E9E;
+@color-ulster : #EEFF41;
+@color-sullivan : #03A9F4;
 
 /* Color for cards */
-.business {color : #F44336;}
-.restaurants {color : #9C27B0;}
-.local {color : #3F51B5;}
-.events {color : #03A9F4;}
-.people {color : #009688;}
-.jobs {color : #795548;}
 
-.upperhv {color : #E91E63;}
-.midhv {color : #673AB7;}
-.lowerhv {color : #4CAF50;}
+.basecard {
+	margin-bottom: 10px !important;
+	.panel{
+		border-color: gray;
+	}
+	.panel-heading{
+		background-color: @color-darkgray !important;
+		color: white !important;
+	}
+}
+.basecard-text { 
+	color: white !important;
+	font-size: 1.3em !important;
+}
 
-.columbia {color : #F44336;}
-.greene {color : #9C27B0;}
-.rensselaer {color : #3F51B5;}
-.albany {color : #03A9F4;}
-.westchester {color : #CDDC39;}
-.rockland {color : #009688;}
-.putnam {color : #795548;}
-.dutchess {color : #FF5722;}
-.orange {color : #9E9E9E;}
-.ulster {color : #EEFF41;}
-.sullivan {color : #03A9F4;}
+.bg-primary {
+	background-color: @base-bg !important;
+}
+.text-primary {
+	color: @base-bg !important;
+}
+
+.banner {
+	margin-left: 20%;
+	margin-right: 20%;
+	padding: 20px;
+	background-color : rgba(0, 0, 0, 0.6) !important;
+	color: @base-color;
+}
+
+.btn-accent {
+	background-color: @base-bg-accent !important;
+	color: @base-color !important;
+}
+
+
+.business {background-color : #F44336 !important;}
+.restaurants {background-color : #9C27B0 !important;}
+.local {background-color : #3F51B5 !important;}
+.events {background-color : #03A9F4 !important;}
+.people {background-color : #009688 !important;}
+.jobs {background-color : #795548 !important;}
+
+.upperhv {
+	background-color : #E91E63 !important;
+}
+.midhv {
+	background-color : #673AB7 !important;
+}
+.lowerhv {
+	background-color : #4CAF50 !important;
+}
+
+.columbia {
+	background-color : #F44336 !important;
+}
+.greene {
+	background-color : #9C27B0 !important;
+}
+.rensselaer {
+	background-color : #3F51B5 !important;
+}
+.albany {
+	background-color : #03A9F4 !important;
+}
+.westchester {
+	background-color : #CDDC39 !important;
+}
+.rockland {
+	background-color : #009688 !important;
+}
+.putnam {
+	background-color : #795548 !important;
+}
+.dutchess {
+	background-color : #FF5722 !important;
+}
+.orange {
+	background-color : #9E9E9E !important;
+}
+.ulster {
+	background-color : #EEFF41 !important;
+}
+.sullivan {
+	background-color : #03A9F4 !important;
+}
 
 
 /* Top level */
@@ -82,10 +171,12 @@
 
 	.badge {
 		background-color: red !important;	
-		color: white;
-		font-size: 1.1em !important;
-		padding-right: 9px;
-		padding-left: 9px;
+		color: yellow;
+		font-size: 1.0em !important;
+		margin: 0px;
+		padding: 5px;
+		padding-right: 10px;
+		padding-left: 10px;
 	}
 
 	.badge.active {
@@ -137,7 +228,22 @@
 }
 
 #appMain{
-	padding-top:75px;
+	/*padding-top:75px;*/
+	.header {
+		height: 550px !important;
+	}
+
+	#contact{
+		padding-left: 20px !important;
+	}
+
+	i.fa {
+		padding-left: 30px !important;
+	}
+}
+
+footer {
+	padding: 10px !important;
 }
 
 #appFooter {

@@ -63,7 +63,7 @@ Router.onBeforeAction(function () {
 // for subsequent route declarations
 //----------------------------------------
 Router.route('/', function () {
-  this.render('content', {to: "appMain"});
+  this.render('portfolio', {to: "appMain"});
 });
 
 Router.route('/home', function () {
@@ -90,7 +90,7 @@ Router.route('/local', function () {
   this.render('holder', {to: "appMain"});
 });
 Router.route('/jobs', function () {
-  this.render('holder', {to: "appMain"});
+  this.render('content', {to: "appMain"});
 });
 
 Router.route('/regions', function () {

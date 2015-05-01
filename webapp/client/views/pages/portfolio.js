@@ -3,25 +3,25 @@ var myServices = [
 		icon:"bank", 
 		title:"Businesses",
 		headline: "List open positions. Connect to local techsperts. Showcase your mobile or web apps. ",
-		link: "/businesses#top"
+		link: "/businesses"
 	},
 	{
 		icon:"user", 
 		title:"People",
 		headline: "List your technology skills. Connect to local businesses. Publicize your projects.",
-		link: "/people#top"
+		link: "/people"
 	},
 	{
 		icon:"calendar", 
 		title:"Events",
 		headline: "Find local technology meetups, conferences and training events. Level up!",
-		link: "/events#top"
+		link: "/events"
 	},
 	{
 		icon:"leaf", 
 		title:"Go Local",
 		headline: "Showcase places and products made in Hudson Valley. Share local tips.",
-		link: "/local#top"
+		link: "/local"
 	}
 ];
 
@@ -29,17 +29,17 @@ var myRegions = [
 	{
 		image: "img/capitol.jpg",
 		name: "Upper Hudson Valley",
-		link: "/regions/upperhv#top"
+		link: "/regions/upperhv"
 	},
 	{
 		image: "img/dutchess.jpg",
 		name: "Mid Hudson Valley",
-		link: "/regions/midhv#top"
+		link: "/regions/midhv"
 	},
 	{
 		image: "img/westchester.jpg",
 		name: "Lower Hudson Valley",
-		link: "/regions/lowerhv#top"
+		link: "/regions/lowerhv"
 	}
 ];
 

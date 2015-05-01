@@ -28,26 +28,7 @@
       <div id="navbar" class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
 
-          <!-- Regions -->
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" 
-              role="button" aria-expanded="false"> 
-                <i class="fa fa-map-marker"></i> Places 
-              <span class="caret"></span></a>
-            <ul class="dropdown-menu" role="menu">
-              <li><a href="/regions">All Regions</a></li>          
-              {{#each regions}}
-                <li class="divider"></li>
-                <li class="dropdown-header">{{name}}</li>
-                <li><a href="/regions/{{regionID}}">All Counties</a></li>
-                {{#each counties}}
-                <li><a href="/counties/{{this}}">{{this}}</a></li>
-                {{/each}}
-              {{/each}}
-            </ul>
-          </li>
-
-          <!-- Regions -->
+          <!-- Marketing -->
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" 
               role="button" aria-expanded="false"> 
@@ -62,6 +43,25 @@
               <li><a href="/welcome#contact">Contact Us</a></li>  
               <li><a href="/welcome#contact">Terms Of Service</a></li>   
               <li><a href="/welcome#contact">Privacy Policy</a></li>    
+            </ul>
+          </li>
+
+          <!-- Regions -->
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" 
+              role="button" aria-expanded="false"> 
+                <i class="fa fa-globe"></i> Discover 
+              <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="/regions">All Regions</a></li>          
+              {{#each regions}}
+                <li class="divider"></li>
+                <li class="dropdown-header">{{name}}</li>
+                <li><a href="/regions/{{regionID}}">All Counties</a></li>
+                {{#each counties}}
+                <li><a href="/counties/{{this}}">{{this}}</a></li>
+                {{/each}}
+              {{/each}}
             </ul>
           </li>
 
@@ -80,6 +80,10 @@
               <li><a href="/new/job"><i class="fa fa-bullhorn"></i> Job</a></li>      
             </ul>
           </li>
+
+
+          <!-- Hiring Badge -->
+          <li><a href="/map"><i class="fa fa-map-marker"></i> Map</a></li>  
 
           <!-- Hiring Badge -->
           <li>

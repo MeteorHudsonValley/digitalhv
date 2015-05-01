@@ -53,6 +53,14 @@ Router.onBeforeAction(function () {
 });
 
 
+// Load Google Maps only if we got to map route
+Router.onBeforeAction(function() {
+  GoogleMaps.load();
+  this.next();
+}, { only: ['map'] });
+
+
+
 //----------------------------------------
 // Given as example to show how you can
 // override default yields.
@@ -91,6 +99,10 @@ Router.route('/local', function () {
 });
 Router.route('/jobs', function () {
   this.render('content', {to: "appMain"});
+});
+Router.route('/map', function () {
+  name: 'map',
+  this.render('mapPage', {to: "appMain"});
 });
 
 Router.route('/regions', function () {

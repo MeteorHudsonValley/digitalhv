@@ -23,6 +23,38 @@
 	  "county_seat" : "City of Albany",
 	  "city" : "Albany"
 }
+{
+    "county": "Albany",
+    "count_municipality": "3",
+    "type": "City",
+    "type_code": "2"
+}
+
+county 				: String (id)
+county_municipality : String
+type 				: String
+type_code 			: String	
+zip5 				: String
+phone 				: String
+location 			: Object
+	needs_recoding 	: Boolean
+	longitude 		: String
+	latitude 		: String
+	human_address 	: String
+address 			: String
+county_seat 		: String
+city  				: String
+county_website 		: Object
+	url 			: String
+longitude 			: String
+latitude 			: String
+
+created 			: Date
+createdBy 			: String
+fixture 			: Boolean
+
+Merge hierarchy and counties files by "county" key
+
 */
 //---------------------------------------------------------
 Counties = new Mongo.Collection("counties");

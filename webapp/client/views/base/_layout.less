@@ -1,4 +1,5 @@
 @base-bg: #3F51B5;
+@base-body: #C5CAE9;
 @base-bg-accent: #E91E63;
 @base-bg-default: #2c3e50; /* #2c3e50; */
 
@@ -166,6 +167,22 @@
 	}
 }
 
+.accountsui{
+	margin-top: 20px !important;
+	padding-right: 20px !important;
+	#login-other-options { 
+		color: @base-bg-accent !important;
+	}
+	a.dropdown-toggle{ 
+		color: white;
+	}
+	.open a.dropdown-toggle{
+		color: white;
+		background-color: transparent !important;
+	}
+
+}
+
 #appHeader{
 	font-size: 1.2em !important;
 
@@ -229,8 +246,17 @@
 
 #appMain{
 	/*padding-top:75px;*/
+	background-color: @base-body;
+
+	.container-fluid{
+		padding-top:75px;
+	}
 	.header {
 		height: 550px !important;
+	}
+
+	#top {
+		padding: -50px !important;
 	}
 
 	#contact{

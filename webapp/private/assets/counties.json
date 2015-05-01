@@ -1,0 +1,1262 @@
+[
+  {
+    "zip5": "12207",
+    "phone": "(518)447-7040",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-73.7539594378",
+      "latitude": "42.6501637986",
+      "human_address": "{\"address\":\"112 State Street\",\"city\":\"Albany\",\"state\":\"\",\"zip\":\"12207\"}"
+    },
+    "address": "112 State Street",
+    "county": "Albany",
+    "county_website": {
+      "url": "http://www.albanycounty.com/"
+    },
+    "longitude": "-73.7539594378",
+    "latitude": "42.6501637986",
+    "contact_type": "County Executive's Office",
+    "county_seat": "City of Albany",
+    "city": "Albany"
+  },
+  {
+    "zip5": "14813",
+    "phone": "(585)268-9217",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-78.0332072212",
+      "latitude": "42.2248679417",
+      "human_address": "{\"address\":\"7 Court St.\",\"city\":\"Belmont\",\"state\":\"\",\"zip\":\"14813\"}"
+    },
+    "address": "7 Court St.",
+    "county": "Allegany",
+    "county_website": {
+      "url": "http://www.alleganyco.com/"
+    },
+    "longitude": "-78.0332072212",
+    "latitude": "42.2248679417",
+    "contact_type": "County Administrator's Office",
+    "county_seat": "Village of Belmont",
+    "city": "Belmont"
+  },
+  {
+    "zip5": "10451",
+    "phone": "(718)590-3500",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-73.9237616166996",
+      "latitude": "40.8262886480416",
+      "human_address": "{\"address\":\"851 Grand Concourse\",\"city\":\"New York\",\"state\":\"\",\"zip\":\"10451\"}"
+    },
+    "address": "851 Grand Concourse",
+    "county": "Bronx",
+    "county_website": {
+      "url": "http://bronxboropres.nyc.gov/"
+    },
+    "longitude": "-73.9237616166996",
+    "latitude": "40.8262886480416",
+    "contact_type": "Borough President's Office",
+    "county_seat": "Borough of the Bronx",
+    "city": "New York"
+  },
+  {
+    "zip5": "13902",
+    "phone": "(607)778-2109",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-75.9107060717799",
+      "latitude": "42.0966824827941",
+      "human_address": "{\"address\":\"60 Hawley Street\",\"city\":\"Binghamton\",\"state\":\"\",\"zip\":\"13902\"}"
+    },
+    "address": "60 Hawley Street",
+    "county": "Broome",
+    "county_website": {
+      "url": "http://www.gobroomecounty.com/"
+    },
+    "longitude": "-75.9107060717799",
+    "latitude": "42.0966824827941",
+    "contact_type": "County Executive's Office",
+    "county_seat": "City of Binghamton",
+    "city": "Binghamton"
+  },
+  {
+    "zip5": "14755",
+    "phone": "(716)938-2577",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-78.8005248568",
+      "latitude": "42.2521093584",
+      "human_address": "{\"address\":\"303 Court St.\",\"city\":\"Little Valley\",\"state\":\"\",\"zip\":\"14755\"}"
+    },
+    "address": "303 Court St.",
+    "county": "Cattaraugus",
+    "county_website": {
+      "url": "http://www.cattco.org/"
+    },
+    "longitude": "-78.8005248568",
+    "latitude": "42.2521093584",
+    "contact_type": "County Administrator's Office",
+    "county_seat": "Village of Little Valley",
+    "city": "Little Valley"
+  },
+  {
+    "zip5": "13021",
+    "phone": "(315)253-1525",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-76.5695460095",
+      "latitude": "42.9297172717",
+      "human_address": "{\"address\":\"160 Genesee St.\",\"city\":\"Auburn\",\"state\":\"\",\"zip\":\"13021\"}"
+    },
+    "address": "160 Genesee St.",
+    "county": "Cayuga",
+    "county_website": {
+      "url": "http://www.co.cayuga.ny.us/"
+    },
+    "longitude": "-76.5695460095",
+    "latitude": "42.9297172717",
+    "contact_type": "County Administrator's Office",
+    "county_seat": "City of Auburn",
+    "city": "Auburn"
+  },
+  {
+    "zip5": "14757",
+    "phone": "(716)753-7111",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-79.5049079999",
+      "latitude": "42.2546709999",
+      "human_address": "{\"address\":\"3 North Erie Street\",\"city\":\"Mayville\",\"state\":\"\",\"zip\":\"14757\"}"
+    },
+    "address": "3 North Erie Street",
+    "county": "Chautauqua",
+    "county_website": {
+      "url": "http://www.co.chautauqua.ny.us/pages/default.aspx"
+    },
+    "longitude": "-79.5049079999",
+    "latitude": "42.2546709999",
+    "contact_type": "County Executive's Office",
+    "county_seat": "Village of Mayville",
+    "city": "Mayville"
+  },
+  {
+    "zip5": "14902",
+    "phone": "(607)737-2912",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-76.8020805169769",
+      "latitude": "42.0899894611913",
+      "human_address": "{\"address\":\"203 Lake St.\",\"city\":\"Elmira\",\"state\":\"\",\"zip\":\"14902\"}"
+    },
+    "address": "203 Lake St.",
+    "county": "Chemung",
+    "county_website": {
+      "url": "http://www.chemungcounty.com/"
+    },
+    "longitude": "-76.8020805169769",
+    "latitude": "42.0899894611913",
+    "contact_type": "County Executive's Office",
+    "county_seat": "City of Elmira",
+    "city": "Elmira"
+  },
+  {
+    "zip5": "13815",
+    "phone": "(607)337-1450",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-75.526183406",
+      "latitude": "42.5319299709",
+      "human_address": "{\"address\":\"5 Court St.\",\"city\":\"Norwich\",\"state\":\"\",\"zip\":\"13815\"}"
+    },
+    "address": "5 Court St.",
+    "county": "Chenango",
+    "county_website": {
+      "url": "http://www.co.chenango.ny.us/"
+    },
+    "longitude": "-75.526183406",
+    "latitude": "42.5319299709",
+    "contact_type": "County Clerk's Office",
+    "county_seat": "City of Norwich",
+    "city": "Norwich"
+  },
+  {
+    "zip5": "12901",
+    "phone": "(518)565-4600",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-73.4539736654",
+      "latitude": "44.6992641965",
+      "human_address": "{\"address\":\"137 Margaret St.\",\"city\":\"Plattsburgh\",\"state\":\"\",\"zip\":\"12901\"}"
+    },
+    "address": "137 Margaret St.",
+    "county": "Clinton",
+    "county_website": {
+      "url": "http://www.clintoncountygov.com/"
+    },
+    "longitude": "-73.4539736654",
+    "latitude": "44.6992641965",
+    "contact_type": "County Administrator's Office",
+    "county_seat": "City of Plattsburgh",
+    "city": "Plattsburgh"
+  },
+  {
+    "zip5": "12534",
+    "phone": "(518)828-3339",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-73.7870073254",
+      "latitude": "42.2520998263",
+      "human_address": "{\"address\":\"401 State St.\",\"city\":\"Hudson\",\"state\":\"\",\"zip\":\"12534\"}"
+    },
+    "address": "401 State St.",
+    "county": "Columbia",
+    "county_website": {
+      "url": "http://www.columbiacountyny.com/"
+    },
+    "longitude": "-73.7870073254",
+    "latitude": "42.2520998263",
+    "contact_type": "County Clerk's Office",
+    "county_seat": "City of Hudson",
+    "city": "Hudson"
+  },
+  {
+    "zip5": "13045",
+    "phone": "(607)753-5048",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-76.1766216289",
+      "latitude": "42.600633547",
+      "human_address": "{\"address\":\"60 Central Ave.\",\"city\":\"Cortland\",\"state\":\"\",\"zip\":\"13045\"}"
+    },
+    "address": "60 Central Ave.",
+    "county": "Cortland",
+    "county_website": {
+      "url": "http://www.cortland-co.org/"
+    },
+    "longitude": "-76.1766216289",
+    "latitude": "42.600633547",
+    "contact_type": "County Administrator's Office",
+    "county_seat": "City of Cortland",
+    "city": "Cortland"
+  },
+  {
+    "zip5": "13753",
+    "phone": "(607)746-2123",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-74.9160773625",
+      "latitude": "42.2775434125",
+      "human_address": "{\"address\":\"111 Main St.\",\"city\":\"Delhi\",\"state\":\"\",\"zip\":\"13753\"}"
+    },
+    "address": "111 Main St.",
+    "county": "Delaware",
+    "county_website": {
+      "url": "http://www.co.delaware.ny.us/index.htm"
+    },
+    "longitude": "-74.9160773625",
+    "latitude": "42.2775434125",
+    "contact_type": "County Clerk's Office",
+    "county_seat": "Village of Delhi",
+    "city": "Delhi"
+  },
+  {
+    "zip5": "12601",
+    "phone": "(845)486-2100",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-73.9295487633",
+      "latitude": "41.7035628872",
+      "human_address": "{\"address\":\"22 Market St., 6Th Floor\",\"city\":\"Poughkeepsie\",\"state\":\"\",\"zip\":\"12601\"}"
+    },
+    "address": "22 Market St., 6Th Floor",
+    "county": "Dutchess",
+    "county_website": {
+      "url": "http://dutchessny.gov/"
+    },
+    "longitude": "-73.9295487633",
+    "latitude": "41.7035628872",
+    "contact_type": "County Executive's Office",
+    "county_seat": "City of Poughkeepsie",
+    "city": "Poughkeepsie"
+  },
+  {
+    "zip5": "14202",
+    "phone": "(716)858-7450",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-78.8767135148805",
+      "latitude": "42.8839031265216",
+      "human_address": "{\"address\":\"95 Franklin St.\",\"city\":\"Buffalo\",\"state\":\"\",\"zip\":\"14202\"}"
+    },
+    "address": "95 Franklin St.",
+    "county": "Erie",
+    "county_website": {
+      "url": "http://www2.erie.gov/"
+    },
+    "longitude": "-78.8767135148805",
+    "latitude": "42.8839031265216",
+    "contact_type": "County Executive's Office",
+    "county_seat": "City of Buffalo",
+    "city": "Buffalo"
+  },
+  {
+    "zip5": "12932",
+    "phone": "(518)873-3333",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-73.5943437348",
+      "latitude": "44.2149016584",
+      "human_address": "{\"address\":\"7551 Court St., P.O. Box 217\",\"city\":\"Elizabethtown\",\"state\":\"\",\"zip\":\"12932\"}"
+    },
+    "address": "7551 Court St., P.O. Box 217",
+    "county": "Essex",
+    "county_website": {
+      "url": "http://www.co.essex.ny.us/"
+    },
+    "longitude": "-73.5943437348",
+    "latitude": "44.2149016584",
+    "contact_type": "County Manager's Office",
+    "county_seat": "Hamlet of Elizabethtown",
+    "city": "Elizabethtown"
+  },
+  {
+    "zip5": "12953",
+    "phone": "(518)481-1693",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-74.2953087495",
+      "latitude": "44.8489976324",
+      "human_address": "{\"address\":\"355 W. Main St.\",\"city\":\"Malone\",\"state\":\"\",\"zip\":\"12953\"}"
+    },
+    "address": "355 W. Main St.",
+    "county": "Franklin",
+    "county_website": {
+      "url": "http://franklincony.org/content"
+    },
+    "longitude": "-74.2953087495",
+    "latitude": "44.8489976324",
+    "contact_type": "County Manager's Office",
+    "county_seat": "Village of Malone",
+    "city": "Malone"
+  },
+  {
+    "zip5": "12095",
+    "phone": "(518)736-5555",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-74.375017369",
+      "latitude": "43.0065560272",
+      "human_address": "{\"address\":\"223 W. Main St.\",\"city\":\"Johnstown\",\"state\":\"\",\"zip\":\"12095\"}"
+    },
+    "address": "223 W. Main St.",
+    "county": "Fulton",
+    "county_website": {
+      "url": "http://www.fultoncountyny.gov/"
+    },
+    "longitude": "-74.375017369",
+    "latitude": "43.0065560272",
+    "contact_type": "County Clerk's Office",
+    "county_seat": "City of Johnstown",
+    "city": "Johnstown"
+  },
+  {
+    "zip5": "14020",
+    "phone": "(585)344-2550",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-78.1868067244",
+      "latitude": "42.9977584846",
+      "human_address": "{\"address\":\"7 Main St.\",\"city\":\"Batavia\",\"state\":\"\",\"zip\":\"14020\"}"
+    },
+    "address": "7 Main St.",
+    "county": "Genesee",
+    "county_website": {
+      "url": "http://www.co.genesee.ny.us/"
+    },
+    "longitude": "-78.1868067244",
+    "latitude": "42.9977584846",
+    "contact_type": "County Manager's Office",
+    "county_seat": "City of Batavia",
+    "city": "Batavia"
+  },
+  {
+    "zip5": "12414",
+    "phone": "(518)719-3270",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-73.8660214094",
+      "latitude": "42.2199994002",
+      "human_address": "{\"address\":\"411 Main St.\",\"city\":\"Catskill\",\"state\":\"\",\"zip\":\"12414\"}"
+    },
+    "address": "411 Main St.",
+    "county": "Greene",
+    "county_website": {
+      "url": "http://www.greenegov.com/"
+    },
+    "longitude": "-73.8660214094",
+    "latitude": "42.2199994002",
+    "contact_type": "County Administrator's Office",
+    "county_seat": "Village of Catskill",
+    "city": "Catskill"
+  },
+  {
+    "zip5": "12108",
+    "phone": "(518)548-7111",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-74.4121401131787",
+      "latitude": "43.4704720464161",
+      "human_address": "{\"address\":\"102 County View Drive\",\"city\":\"Lake Pleasant\",\"state\":\"\",\"zip\":\"12108\"}"
+    },
+    "address": "102 County View Drive",
+    "county": "Hamilton",
+    "county_website": {
+      "url": "http://www.hamiltoncounty.com/"
+    },
+    "longitude": "-74.4121401131787",
+    "latitude": "43.4704720464161",
+    "contact_type": "County Clerk's Office",
+    "county_seat": "Hamlet of Lake Pleasant",
+    "city": "Lake Pleasant"
+  },
+  {
+    "zip5": "13350",
+    "phone": "(315)867-1112",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-74.9882183618",
+      "latitude": "43.0289601345",
+      "human_address": "{\"address\":\"109 Mary St., Suite 1310\",\"city\":\"Herkimer\",\"state\":\"\",\"zip\":\"13350\"}"
+    },
+    "address": "109 Mary St., Suite 1310",
+    "county": "Herkimer",
+    "county_website": {
+      "url": "http://herkimercounty.org/content"
+    },
+    "longitude": "-74.9882183618",
+    "latitude": "43.0289601345",
+    "contact_type": "County Administrator's Office",
+    "county_seat": "Village of Herkimer",
+    "city": "Herkimer"
+  },
+  {
+    "zip5": "13601",
+    "phone": "(315)785-3075",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-75.9136370674",
+      "latitude": "43.9753851641",
+      "human_address": "{\"address\":\"195 Arsenal St.\",\"city\":\"Watertown\",\"state\":\"\",\"zip\":\"13601\"}"
+    },
+    "address": "195 Arsenal St.",
+    "county": "Jefferson",
+    "county_website": {
+      "url": "http://www.co.jefferson.ny.us/"
+    },
+    "longitude": "-75.9136370674",
+    "latitude": "43.9753851641",
+    "contact_type": "County Administrator's Office",
+    "county_seat": "City of Watertown",
+    "city": "Watertown"
+  },
+  {
+    "zip5": "11201",
+    "phone": "(718)802-3700",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-73.9903536793963",
+      "latitude": "40.6927471387307",
+      "human_address": "{\"address\":\"209 Joralemon St\",\"city\":\"New York\",\"state\":\"\",\"zip\":\"11201\"}"
+    },
+    "address": "209 Joralemon St",
+    "county": "Kings",
+    "county_website": {
+      "url": "http://www.brooklyn-usa.org/"
+    },
+    "longitude": "-73.9903536793963",
+    "latitude": "40.6927471387307",
+    "contact_type": "Borough President's Office",
+    "county_seat": "Borough of Brooklyn",
+    "city": "New York"
+  },
+  {
+    "zip5": "13367",
+    "phone": "(315)376-5355",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-75.4934752633",
+      "latitude": "43.7888932099",
+      "human_address": "{\"address\":\"7660 State St.\",\"city\":\"Lowville\",\"state\":\"\",\"zip\":\"13367\"}"
+    },
+    "address": "7660 State St.",
+    "county": "Lewis",
+    "county_website": {
+      "url": "http://lewiscountyny.org/content"
+    },
+    "longitude": "-75.4934752633",
+    "latitude": "43.7888932099",
+    "contact_type": "County Manager's Office",
+    "county_seat": "Village of Lowville",
+    "city": "Lowville"
+  },
+  {
+    "zip5": "14454",
+    "phone": "(585)243-7040",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-77.8156898771",
+      "latitude": "42.8008513295",
+      "human_address": "{\"address\":\"6 Court St.\",\"city\":\"Geneseo\",\"state\":\"\",\"zip\":\"14454\"}"
+    },
+    "address": "6 Court St.",
+    "county": "Livingston",
+    "county_website": {
+      "url": "http://www.co.livingston.state.ny.us/"
+    },
+    "longitude": "-77.8156898771",
+    "latitude": "42.8008513295",
+    "contact_type": "County Administrator's Office",
+    "county_seat": "Village of Geneseo",
+    "city": "Geneseo"
+  },
+  {
+    "zip5": "13163",
+    "phone": "(315)366-2261",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-75.7066665401",
+      "latitude": "43.0803839089",
+      "human_address": "{\"address\":\"138 N. Court St\",\"city\":\"Wampsville\",\"state\":\"\",\"zip\":\"13163\"}"
+    },
+    "address": "138 N. Court St",
+    "county": "Madison",
+    "county_website": {
+      "url": "http://www.madisoncounty.ny.gov/"
+    },
+    "longitude": "-75.7066665401",
+    "latitude": "43.0803839089",
+    "contact_type": "County Clerk's Office",
+    "county_seat": "Village of Wampsville",
+    "city": "Wampsville"
+  },
+  {
+    "zip5": "14614",
+    "phone": "(585)753-1000",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-77.6136371683",
+      "latitude": "43.1552483524",
+      "human_address": "{\"address\":\"39 W. Main St.\",\"city\":\"Rochester\",\"state\":\"\",\"zip\":\"14614\"}"
+    },
+    "address": "39 W. Main St.",
+    "county": "Monroe",
+    "county_website": {
+      "url": "http://www.monroecounty.gov/"
+    },
+    "longitude": "-77.6136371683",
+    "latitude": "43.1552483524",
+    "contact_type": "County Executive's Office",
+    "county_seat": "City of Rochester",
+    "city": "Rochester"
+  },
+  {
+    "zip5": "12068",
+    "phone": "(518)853-8111",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-74.3797579548288",
+      "latitude": "42.9574464463997",
+      "human_address": "{\"address\":\"64 Broadway\",\"city\":\"Fonda\",\"state\":\"\",\"zip\":\"12068\"}"
+    },
+    "address": "64 Broadway",
+    "county": "Montgomery",
+    "county_website": {
+      "url": "http://www.co.montgomery.ny.us/"
+    },
+    "longitude": "-74.3797579548288",
+    "latitude": "42.9574464463997",
+    "contact_type": "County Clerk's Office",
+    "county_seat": "Village of Fonda",
+    "city": "Fonda"
+  },
+  {
+    "zip5": "11501",
+    "phone": "(516)571-3000",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-73.6396807827",
+      "latitude": "40.7379915813",
+      "human_address": "{\"address\":\"1550 Franklin Ave.\",\"city\":\"Mineola\",\"state\":\"\",\"zip\":\"11501\"}"
+    },
+    "address": "1550 Franklin Ave.",
+    "county": "Nassau",
+    "county_website": {
+      "url": "http://www.nassaucountyny.gov/"
+    },
+    "longitude": "-73.6396807827",
+    "latitude": "40.7379915813",
+    "contact_type": "County Executive's Office",
+    "county_seat": "Village of Mineola",
+    "city": "Mineola"
+  },
+  {
+    "zip5": "10007",
+    "phone": "(212)669-8300",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-74.0035412187351",
+      "latitude": "40.7129038722017",
+      "human_address": "{\"address\":\"1 Centre St\",\"city\":\"New York\",\"state\":\"\",\"zip\":\"10007\"}"
+    },
+    "address": "1 Centre St",
+    "county": "New York",
+    "county_website": {
+      "url": "http://www.mbpo.org/"
+    },
+    "longitude": "-74.0035412187351",
+    "latitude": "40.7129038722017",
+    "contact_type": "Borough President's Office",
+    "county_seat": "Borough of Manhattan",
+    "city": "New York"
+  },
+  {
+    "zip5": "10007",
+    "phone": "(212)639-9675",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-74.0060016879638",
+      "latitude": "40.7127570194579",
+      "human_address": "{\"address\":\"260 Broadway\",\"city\":\"New York\",\"state\":\"\",\"zip\":\"10007\"}"
+    },
+    "address": "260 Broadway",
+    "county": "New York (City)",
+    "county_website": {
+      "url": "http://www.nyc.gov/html/index.html"
+    },
+    "longitude": "-74.0060016879638",
+    "latitude": "40.7127570194579",
+    "contact_type": "Mayor's Office",
+    "county_seat": "Borough of Manhattan",
+    "city": "New York"
+  },
+  {
+    "zip5": "14094",
+    "phone": "(716)439-7213",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-78.7000029695",
+      "latitude": "43.1695038446",
+      "human_address": "{\"address\":\"175 Hawley St.\",\"city\":\"Lockport\",\"state\":\"\",\"zip\":\"14094\"}"
+    },
+    "address": "175 Hawley St.",
+    "county": "Niagara",
+    "county_website": {
+      "url": "http://www.niagaracounty.com/"
+    },
+    "longitude": "-78.7000029695",
+    "latitude": "43.1695038446",
+    "contact_type": "County Manager's Office",
+    "county_seat": "City of Lockport",
+    "city": "Lockport"
+  },
+  {
+    "zip5": "13501",
+    "phone": "(315)798-5700",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-75.2300994881",
+      "latitude": "43.0992658144",
+      "human_address": "{\"address\":\"800 Park Ave.\",\"city\":\"Utica\",\"state\":\"\",\"zip\":\"13501\"}"
+    },
+    "address": "800 Park Ave.",
+    "county": "Oneida",
+    "county_website": {
+      "url": "http://www.ocgov.net/"
+    },
+    "longitude": "-75.2300994881",
+    "latitude": "43.0992658144",
+    "contact_type": "County Executive's Office",
+    "county_seat": "City of Utica",
+    "city": "Utica"
+  },
+  {
+    "zip5": "13202",
+    "phone": "(315)435-2222",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-76.1483682529",
+      "latitude": "43.0466365907",
+      "human_address": "{\"address\":\"421 Montgomery St.\",\"city\":\"Syracuse\",\"state\":\"\",\"zip\":\"13202\"}"
+    },
+    "address": "421 Montgomery St.",
+    "county": "Onondaga",
+    "county_website": {
+      "url": "http://www.ongov.net/"
+    },
+    "longitude": "-76.1483682529",
+    "latitude": "43.0466365907",
+    "contact_type": "County Executive's Office",
+    "county_seat": "City of Syracuse",
+    "city": "Syracuse"
+  },
+  {
+    "zip5": "14424",
+    "phone": "(585)396-4400",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-77.2803325364",
+      "latitude": "42.8886132146",
+      "human_address": "{\"address\":\"20 Ontario St.\",\"city\":\"Canandaigua\",\"state\":\"\",\"zip\":\"14424\"}"
+    },
+    "address": "20 Ontario St.",
+    "county": "Ontario",
+    "county_website": {
+      "url": "http://www.co.ontario.ny.us"
+    },
+    "longitude": "-77.2803325364",
+    "latitude": "42.8886132146",
+    "contact_type": "County Administrator's Office",
+    "county_seat": "City of Canandaigua",
+    "city": "Canandaigua"
+  },
+  {
+    "zip5": "10924",
+    "phone": "(845)291-3000",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-74.3184448147",
+      "latitude": "41.4062075242",
+      "human_address": "{\"address\":\"255 Main Street\",\"city\":\"Goshen\",\"state\":\"\",\"zip\":\"10924\"}"
+    },
+    "address": "255 Main Street",
+    "county": "Orange",
+    "county_website": {
+      "url": "http://www.co.orange.ny.us/"
+    },
+    "longitude": "-74.3184448147",
+    "latitude": "41.4062075242",
+    "contact_type": "County Executive's Office",
+    "county_seat": "Village of Goshen",
+    "city": "Goshen"
+  },
+  {
+    "zip5": "14411",
+    "phone": "(585)589-7053",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-78.1928184138",
+      "latitude": "43.2458608673",
+      "human_address": "{\"address\":\"3 S. Main St., Suite 2\",\"city\":\"Albion\",\"state\":\"\",\"zip\":\"14411\"}"
+    },
+    "address": "3 S. Main St., Suite 2",
+    "county": "Orleans",
+    "county_website": {
+      "url": "http://orleansny.com/"
+    },
+    "longitude": "-78.1928184138",
+    "latitude": "43.2458608673",
+    "contact_type": "Chief Administrative Officer's Office",
+    "county_seat": "Village of Albion",
+    "city": "Albion"
+  },
+  {
+    "zip5": "13126",
+    "phone": "(315)349-8235",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-76.5057347916",
+      "latitude": "43.4574611999",
+      "human_address": "{\"address\":\"46 E. Bridge St.\",\"city\":\"Oswego\",\"state\":\"\",\"zip\":\"13126\"}"
+    },
+    "address": "46 E. Bridge St.",
+    "county": "Oswego",
+    "county_website": {
+      "url": "http://www.co.oswego.ny.us/"
+    },
+    "longitude": "-76.5057347916",
+    "latitude": "43.4574611999",
+    "contact_type": "County Administrator's Office",
+    "county_seat": "City of Oswego",
+    "city": "Oswego"
+  },
+  {
+    "zip5": "13326",
+    "phone": "(607)547-4200",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-74.9296704906",
+      "latitude": "42.7007261133",
+      "human_address": "{\"address\":\"197 Main St.\",\"city\":\"Cooperstown\",\"state\":\"\",\"zip\":\"13326\"}"
+    },
+    "address": "197 Main St.",
+    "county": "Otsego",
+    "county_website": {
+      "url": "http://www.otsegocounty.com/"
+    },
+    "longitude": "-74.9296704906",
+    "latitude": "42.7007261133",
+    "contact_type": "County Clerk's Office",
+    "county_seat": "Village of Cooperstown",
+    "city": "Cooperstown"
+  },
+  {
+    "zip5": "10512",
+    "phone": "(845)808-1000",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-73.6785764405758",
+      "latitude": "41.4261542614328",
+      "human_address": "{\"address\":\"40 Gleneida Ave.\",\"city\":\"Carmel\",\"state\":\"\",\"zip\":\"10512\"}"
+    },
+    "address": "40 Gleneida Ave.",
+    "county": "Putnam",
+    "county_website": {
+      "url": "http://www.putnamcountyny.com/"
+    },
+    "longitude": "-73.6785764405758",
+    "latitude": "41.4261542614328",
+    "contact_type": "County Executive's Office",
+    "county_seat": "Town of Carmel",
+    "city": "Carmel"
+  },
+  {
+    "zip5": "11424",
+    "phone": "(718)286-3000",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-73.8281286529064",
+      "latitude": "40.7137097534539",
+      "human_address": "{\"address\":\"120-55 Queens Boulevard\",\"city\":\"New York\",\"state\":\"\",\"zip\":\"11424\"}"
+    },
+    "address": "120-55 Queens Boulevard",
+    "county": "Queens",
+    "county_website": {
+      "url": "http://www.queensbp.org/"
+    },
+    "longitude": "-73.8281286529064",
+    "latitude": "40.7137097534539",
+    "contact_type": "Borough President's Office",
+    "county_seat": "Borough of Queens",
+    "city": "New York"
+  },
+  {
+    "zip5": "12180",
+    "phone": "(518)270-2900",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-73.6858040623",
+      "latitude": "42.7289906092",
+      "human_address": "{\"address\":\"1600 7Th Avenue\",\"city\":\"Troy\",\"state\":\"\",\"zip\":\"12180\"}"
+    },
+    "address": "1600 7Th Avenue",
+    "county": "Rensselaer",
+    "county_website": {
+      "url": "http://www.rensco.com/"
+    },
+    "longitude": "-73.6858040623",
+    "latitude": "42.7289906092",
+    "contact_type": "County Executive's Office",
+    "county_seat": "City of Troy",
+    "city": "Troy"
+  },
+  {
+    "zip5": "10301",
+    "phone": "(718)816-2000",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-74.0759966380836",
+      "latitude": "40.6424132525085",
+      "human_address": "{\"address\":\"10 Richmond Terrace\",\"city\":\"New York\",\"state\":\"\",\"zip\":\"10301\"}"
+    },
+    "address": "10 Richmond Terrace",
+    "county": "Richmond",
+    "county_website": {
+      "url": "http://statenislandusa.com/"
+    },
+    "longitude": "-74.0759966380836",
+    "latitude": "40.6424132525085",
+    "contact_type": "Borough President's Office",
+    "county_seat": "Borough of Staten Island",
+    "city": "New York"
+  },
+  {
+    "zip5": "10956",
+    "phone": "(845)638-5100",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-73.9913250877943",
+      "latitude": "41.1479873799689",
+      "human_address": "{\"address\":\"11 New Hempstead Rd.\",\"city\":\"New City\",\"state\":\"\",\"zip\":\"10956\"}"
+    },
+    "address": "11 New Hempstead Rd.",
+    "county": "Rockland",
+    "county_website": {
+      "url": "https://rocklandgov.com/"
+    },
+    "longitude": "-73.9913250877943",
+    "latitude": "41.1479873799689",
+    "contact_type": "County Executive's Office",
+    "county_seat": "Hamlet of New City",
+    "city": "New City"
+  },
+  {
+    "zip5": "12020",
+    "phone": "(518)884-4742",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-73.8505621549598",
+      "latitude": "42.9990565038546",
+      "human_address": "{\"address\":\"40 McMaster St.\",\"city\":\"Ballston Spa\",\"state\":\"\",\"zip\":\"12020\"}"
+    },
+    "address": "40 McMaster St.",
+    "county": "Saratoga",
+    "county_website": {
+      "url": "http://www.saratogacountyny.gov/"
+    },
+    "longitude": "-73.8505621549598",
+    "latitude": "42.9990565038546",
+    "contact_type": "County Administrator's Office",
+    "county_seat": "Village of Ballston Spa",
+    "city": "Ballston Spa"
+  },
+  {
+    "zip5": "12305",
+    "phone": "(518)388-4280",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-73.9394897708",
+      "latitude": "42.8101528732",
+      "human_address": "{\"address\":\"620 State St.\",\"city\":\"Schenectady\",\"state\":\"\",\"zip\":\"12305\"}"
+    },
+    "address": "620 State St.",
+    "county": "Schenectady",
+    "county_website": {
+      "url": "http://www.schenectadycounty.com/"
+    },
+    "longitude": "-73.9394897708",
+    "latitude": "42.8101528732",
+    "contact_type": "County Manager's Office",
+    "county_seat": "City of Schenectady",
+    "city": "Schenectady"
+  },
+  {
+    "zip5": "12157",
+    "phone": "(518)295-8316",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-74.311634526606",
+      "latitude": "42.6637492884846",
+      "human_address": "{\"address\":\"284 Main St.\",\"city\":\"Schoharie\",\"state\":\"\",\"zip\":\"12157\"}"
+    },
+    "address": "284 Main St.",
+    "county": "Schoharie",
+    "county_website": {
+      "url": "http://www.schohariecounty-ny.gov/CountyWebSite/index.jsp"
+    },
+    "longitude": "-74.311634526606",
+    "latitude": "42.6637492884846",
+    "contact_type": "County Clerk's Office",
+    "county_seat": "Village of Schoharie",
+    "city": "Schoharie"
+  },
+  {
+    "zip5": "14891",
+    "phone": "(607)535-8106",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-76.8709834613393",
+      "latitude": "42.3771905656277",
+      "human_address": "{\"address\":\"105 Ninth St.\",\"city\":\"Watkins Glen\",\"state\":\"\",\"zip\":\"14891\"}"
+    },
+    "address": "105 Ninth St.",
+    "county": "Schuyler",
+    "county_website": {
+      "url": "http://www.schuylercounty.us/"
+    },
+    "longitude": "-76.8709834613393",
+    "latitude": "42.3771905656277",
+    "contact_type": "County Administrator's Office",
+    "county_seat": "Village of Watkins Glen",
+    "city": "Watkins Glen"
+  },
+  {
+    "zip5": "13165",
+    "phone": "(315)539-1705",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-76.8434281012033",
+      "latitude": "42.9084701691667",
+      "human_address": "{\"address\":\"1 DiPronio Dr.\",\"city\":\"Waterloo\",\"state\":\"\",\"zip\":\"13165\"}"
+    },
+    "address": "1 DiPronio Dr.",
+    "county": "Seneca",
+    "county_website": {
+      "url": "http://www.co.seneca.ny.us/"
+    },
+    "longitude": "-76.8434281012033",
+    "latitude": "42.9084701691667",
+    "contact_type": "County Manager's Office",
+    "county_seat": "Village of Waterloo",
+    "city": "Waterloo"
+  },
+  {
+    "zip5": "13617",
+    "phone": "(315)379-2276",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-75.1692307374",
+      "latitude": "44.5989194552",
+      "human_address": "{\"address\":\"48 Court St.\",\"city\":\"Canton\",\"state\":\"\",\"zip\":\"13617\"}"
+    },
+    "address": "48 Court St.",
+    "county": "St Lawrence",
+    "county_website": {
+      "url": "http://www.co.st-lawrence.ny.us/"
+    },
+    "longitude": "-75.1692307374",
+    "latitude": "44.5989194552",
+    "contact_type": "County Administrator's Office",
+    "county_seat": "Village of Canton",
+    "city": "Canton"
+  },
+  {
+    "zip5": "14810",
+    "phone": "(607)664-2245",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-77.3173633735248",
+      "latitude": "42.3332513328021",
+      "human_address": "{\"address\":\"3 E. Pulteney Square\",\"city\":\"Bath\",\"state\":\"\",\"zip\":\"14810\"}"
+    },
+    "address": "3 E. Pulteney Square",
+    "county": "Steuben",
+    "county_website": {
+      "url": "http://www.steubencony.org/"
+    },
+    "longitude": "-77.3173633735248",
+    "latitude": "42.3332513328021",
+    "contact_type": "County Administrator's Office",
+    "county_seat": "Village of Bath",
+    "city": "Bath"
+  },
+  {
+    "zip5": "11901",
+    "phone": "(631)852-1700",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-72.6730152171233",
+      "latitude": "40.9143744547659",
+      "human_address": "{\"address\":\"300 Center Dr.\",\"city\":\"Riverhead\",\"state\":\"\",\"zip\":\"11901\"}"
+    },
+    "address": "300 Center Dr.",
+    "county": "Suffolk",
+    "county_website": {
+      "url": "http://www.suffolkcountyny.gov/"
+    },
+    "longitude": "-72.6730152171233",
+    "latitude": "40.9143744547659",
+    "contact_type": "County Executive's Office",
+    "county_seat": "Town of Riverhead",
+    "city": "Riverhead"
+  },
+  {
+    "zip5": "12701",
+    "phone": "(845)794-3000",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-74.691905010473",
+      "latitude": "41.6583202808553",
+      "human_address": "{\"address\":\"100 North Street\",\"city\":\"Monticello\",\"state\":\"\",\"zip\":\"12701\"}"
+    },
+    "address": "100 North Street",
+    "county": "Sullivan",
+    "county_website": {
+      "url": "http://www.co.sullivan.ny.us/"
+    },
+    "longitude": "-74.691905010473",
+    "latitude": "41.6583202808553",
+    "contact_type": "County Manager's Office",
+    "county_seat": "Village of Monticello",
+    "city": "Monticello"
+  },
+  {
+    "zip5": "13827",
+    "phone": "(607)687-8660",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-76.2666764635871",
+      "latitude": "42.1010160454932",
+      "human_address": "{\"address\":\"56 Main St.\",\"city\":\"Owego\",\"state\":\"\",\"zip\":\"13827\"}"
+    },
+    "address": "56 Main St.",
+    "county": "Tioga",
+    "county_website": {
+      "url": "http://www.tiogacountyny.com/"
+    },
+    "longitude": "-76.2666764635871",
+    "latitude": "42.1010160454932",
+    "contact_type": "County Clerk's Office",
+    "county_seat": "Village of Owego",
+    "city": "Owego"
+  },
+  {
+    "zip5": "14850",
+    "phone": "(607)274-5434",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-76.4972068143134",
+      "latitude": "42.4422942513738",
+      "human_address": "{\"address\":\"320 N. Tioga St.\",\"city\":\"Ithaca\",\"state\":\"\",\"zip\":\"14850\"}"
+    },
+    "address": "320 N. Tioga St.",
+    "county": "Tompkins",
+    "county_website": {
+      "url": "http://www.tompkins-co.org/"
+    },
+    "longitude": "-76.4972068143134",
+    "latitude": "42.4422942513738",
+    "contact_type": "County Administrator's Office",
+    "county_seat": "City of Ithaca",
+    "city": "Ithaca"
+  },
+  {
+    "zip5": "12402",
+    "phone": "(845)340-3800",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-74.0173858749",
+      "latitude": "41.9326926468",
+      "human_address": "{\"address\":\"244 Fair Street\",\"city\":\"Kingston\",\"state\":\"\",\"zip\":\"12402\"}"
+    },
+    "address": "244 Fair Street",
+    "county": "Ulster",
+    "county_website": {
+      "url": "http://co.ulster.ny.us/"
+    },
+    "longitude": "-74.0173858749",
+    "latitude": "41.9326926468",
+    "contact_type": "County Executive's Office",
+    "county_seat": "City of Kingston",
+    "city": "Kingston"
+  },
+  {
+    "zip5": "12845",
+    "phone": "(518)761-6539",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-73.6994622642118",
+      "latitude": "43.3587355362594",
+      "human_address": "{\"address\":\"1340 State Route 9\",\"city\":\"Lake George\",\"state\":\"\",\"zip\":\"12845\"}"
+    },
+    "address": "1340 State Route 9",
+    "county": "Warren",
+    "county_website": {
+      "url": "http://warrencountyny.gov/"
+    },
+    "longitude": "-73.6994622642118",
+    "latitude": "43.3587355362594",
+    "contact_type": "County Administrator's Office",
+    "county_seat": "Town of Queensbury",
+    "city": "Lake George"
+  },
+  {
+    "zip5": "12828",
+    "phone": "(518)746-2590",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-73.588135781998",
+      "latitude": "43.2873604906689",
+      "human_address": "{\"address\":\"383 Broadway\",\"city\":\"Fort Edward\",\"state\":\"\",\"zip\":\"12828\"}"
+    },
+    "address": "383 Broadway",
+    "county": "Washington",
+    "county_website": {
+      "url": "http://www.co.washington.ny.us/Default.htm"
+    },
+    "longitude": "-73.588135781998",
+    "latitude": "43.2873604906689",
+    "contact_type": "County Administrator's Office",
+    "county_seat": "Town of Fort Edward",
+    "city": "Fort Edward"
+  },
+  {
+    "zip5": "14489",
+    "phone": "(315)946-5480",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-76.9928715388104",
+      "latitude": "43.0637726417679",
+      "human_address": "{\"address\":\"26 Church St.\",\"city\":\"Lyons\",\"state\":\"\",\"zip\":\"14489\"}"
+    },
+    "address": "26 Church St.",
+    "county": "Wayne",
+    "county_website": {
+      "url": "http://www.co.wayne.ny.us/"
+    },
+    "longitude": "-76.9928715388104",
+    "latitude": "43.0637726417679",
+    "contact_type": "County Administrator's Office",
+    "county_seat": "Village of Lyons",
+    "city": "Lyons"
+  },
+  {
+    "zip5": "10601",
+    "phone": "(914)995-2000",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-73.7676683134",
+      "latitude": "41.0305398157",
+      "human_address": "{\"address\":\"148 Martine Ave.\",\"city\":\"White Plains\",\"state\":\"\",\"zip\":\"10601\"}"
+    },
+    "address": "148 Martine Ave.",
+    "county": "Westchester",
+    "county_website": {
+      "url": "http://www3.westchestergov.com/"
+    },
+    "longitude": "-73.7676683134",
+    "latitude": "41.0305398157",
+    "contact_type": "County Executive's Office",
+    "county_seat": "City of White Plains",
+    "city": "White Plains"
+  },
+  {
+    "zip5": "14569",
+    "phone": "(585)786-8810",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-78.1330608975056",
+      "latitude": "42.7430736411032",
+      "human_address": "{\"address\":\"143 N. Main St.\",\"city\":\"Warsaw\",\"state\":\"\",\"zip\":\"14569\"}"
+    },
+    "address": "143 N. Main St.",
+    "county": "Wyoming",
+    "county_website": {
+      "url": "http://www.wyomingco.net/"
+    },
+    "longitude": "-78.1330608975056",
+    "latitude": "42.7430736411032",
+    "contact_type": "County Clerk's Office",
+    "county_seat": "Village of Warsaw",
+    "city": "Warsaw"
+  },
+  {
+    "zip5": "14527",
+    "phone": "(315)536-5118",
+    "location": {
+      "needs_recoding": false,
+      "longitude": "-77.0580206781537",
+      "latitude": "42.6641607168306",
+      "human_address": "{\"address\":\"417 Liberty St.\",\"city\":\"Penn Yan\",\"state\":\"\",\"zip\":\"14527\"}"
+    },
+    "address": "417 Liberty St.",
+    "county": "Yates",
+    "county_website": {
+      "url": "http://www.yatescounty.org/"
+    },
+    "longitude": "-77.0580206781537",
+    "latitude": "42.6641607168306",
+    "contact_type": "County Administrator's Office",
+    "county_seat": "Village of Penn Yan",
+    "city": "Penn Yan"
+  }
+]

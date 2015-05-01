@@ -2,16 +2,41 @@
 @base-bg-accent: #E91E63;
 @base-bg-default: #2c3e50;
 
-@base-color: white;
-@base-link-color: white;
+@base-color: white;}
+@base-link-color: white;}
 
 @color-indigo: #3F51B5;
 @color-teal: #009688;
 
+/* Color for cards */
+.business {color : #F44336;}
+.restaurants {color : #9C27B0;}
+.local {color : #3F51B5;}
+.events {color : #03A9F4;}
+.people {color : #009688;}
+.jobs {color : #795548;}
+
+.upperhv {color : #E91E63;}
+.midhv {color : #673AB7;}
+.lowerhv {color : #4CAF50;}
+
+.columbia {color : #F44336;}
+.greene {color : #9C27B0;}
+.rensselaer {color : #3F51B5;}
+.albany {color : #03A9F4;}
+.westchester {color : #CDDC39;}
+.rockland {color : #009688;}
+.putnam {color : #795548;}
+.dutchess {color : #FF5722;}
+.orange {color : #9E9E9E;}
+.ulster {color : #EEFF41;}
+.sullivan {color : #03A9F4;}
+
+
 /* Top level */
 #appNav{
 
-	margin-top: 60px !important;
+	margin-top: -20px !important;
 	margin-right: 0px;
 	background-color: @base-bg !important;
 	color: white !important;
@@ -21,18 +46,23 @@
 	.sidebar-brand{
 		background-color: @base-bg-accent !important;	
 		color: white !important;
-		font-size: 1.1em !important;
+		font-size: 1.2em !important;
 		margin-bottom: 15px !important;	
 	}
 
 	.sidebar-nav li a{
 		display: inline;
+		color: white !important;
 	}
 
 	.sidebar-brand a, .btn-light{
 		background-color: inherit !important;
 		color: yellow !important;
 	}	
+
+	li.sidebar-list:hover {
+		background-color: @base-bg-accent !important;	
+	}
 
 	#sidebar-wrapper{
 		z-index: 2 !important;
@@ -49,6 +79,18 @@
 
 #appHeader{
 	font-size: 1.2em !important;
+
+	.badge {
+		background-color: red !important;	
+		color: white;
+		font-size: 1.1em !important;
+		padding-right: 9px;
+		padding-left: 9px;
+	}
+
+	.badge.active {
+		background-color: green !important;	
+	}
 
 	.container {
 		margin-left: 10px;

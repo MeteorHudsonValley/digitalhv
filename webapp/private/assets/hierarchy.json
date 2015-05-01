@@ -1,0 +1,908 @@
+[
+  {
+    "county": "Albany",
+    "count_municipality": "3",
+    "type": "City",
+    "type_code": "2"
+  },
+  {
+    "county": "Albany",
+    "count_municipality": "10",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Albany",
+    "count_municipality": "6",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Allegany",
+    "count_municipality": "29",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Allegany",
+    "count_municipality": "10",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Broome",
+    "count_municipality": "1",
+    "type": "City",
+    "type_code": "2"
+  },
+  {
+    "county": "Broome",
+    "count_municipality": "16",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Broome",
+    "count_municipality": "7",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Cattaraugus",
+    "count_municipality": "2",
+    "type": "City",
+    "type_code": "2"
+  },
+  {
+    "county": "Cattaraugus",
+    "count_municipality": "32",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Cattaraugus",
+    "count_municipality": "9",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Cayuga",
+    "count_municipality": "1",
+    "type": "City",
+    "type_code": "2"
+  },
+  {
+    "county": "Cayuga",
+    "count_municipality": "23",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Cayuga",
+    "count_municipality": "9",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Chautauqua",
+    "count_municipality": "2",
+    "type": "City",
+    "type_code": "2"
+  },
+  {
+    "county": "Chautauqua",
+    "count_municipality": "27",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Chautauqua",
+    "count_municipality": "15",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Chemung",
+    "count_municipality": "1",
+    "type": "City",
+    "type_code": "2"
+  },
+  {
+    "county": "Chemung",
+    "count_municipality": "11",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Chemung",
+    "count_municipality": "5",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Chenango",
+    "count_municipality": "1",
+    "type": "City",
+    "type_code": "2"
+  },
+  {
+    "county": "Chenango",
+    "count_municipality": "21",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Chenango",
+    "count_municipality": "8",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Clinton",
+    "count_municipality": "1",
+    "type": "City",
+    "type_code": "2"
+  },
+  {
+    "county": "Clinton",
+    "count_municipality": "14",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Clinton",
+    "count_municipality": "4",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Columbia",
+    "count_municipality": "1",
+    "type": "City",
+    "type_code": "2"
+  },
+  {
+    "county": "Columbia",
+    "count_municipality": "18",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Columbia",
+    "count_municipality": "4",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Cortland",
+    "count_municipality": "1",
+    "type": "City",
+    "type_code": "2"
+  },
+  {
+    "county": "Cortland",
+    "count_municipality": "15",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Cortland",
+    "count_municipality": "3",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Delaware",
+    "count_municipality": "19",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Delaware",
+    "count_municipality": "9",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Dutchess",
+    "count_municipality": "2",
+    "type": "City",
+    "type_code": "2"
+  },
+  {
+    "county": "Dutchess",
+    "count_municipality": "20",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Dutchess",
+    "count_municipality": "8",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Erie",
+    "count_municipality": "3",
+    "type": "City",
+    "type_code": "2"
+  },
+  {
+    "county": "Erie",
+    "count_municipality": "25",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Erie",
+    "count_municipality": "15",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Essex",
+    "count_municipality": "18",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Essex",
+    "count_municipality": "3",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Franklin",
+    "count_municipality": "19",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Franklin",
+    "count_municipality": "5",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Fulton",
+    "count_municipality": "2",
+    "type": "City",
+    "type_code": "2"
+  },
+  {
+    "county": "Fulton",
+    "count_municipality": "10",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Fulton",
+    "count_municipality": "4",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Genesee",
+    "count_municipality": "1",
+    "type": "City",
+    "type_code": "2"
+  },
+  {
+    "county": "Genesee",
+    "count_municipality": "13",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Genesee",
+    "count_municipality": "7",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Greene",
+    "count_municipality": "14",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Greene",
+    "count_municipality": "5",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Hamilton",
+    "count_municipality": "9",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Hamilton",
+    "count_municipality": "1",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Herkimer",
+    "count_municipality": "1",
+    "type": "City",
+    "type_code": "2"
+  },
+  {
+    "county": "Herkimer",
+    "count_municipality": "19",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Herkimer",
+    "count_municipality": "9",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Jefferson",
+    "count_municipality": "1",
+    "type": "City",
+    "type_code": "2"
+  },
+  {
+    "county": "Jefferson",
+    "count_municipality": "22",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Jefferson",
+    "count_municipality": "20",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Lewis",
+    "count_municipality": "17",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Lewis",
+    "count_municipality": "9",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Livingston",
+    "count_municipality": "17",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Livingston",
+    "count_municipality": "9",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Madison",
+    "count_municipality": "1",
+    "type": "City",
+    "type_code": "2"
+  },
+  {
+    "county": "Madison",
+    "count_municipality": "15",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Madison",
+    "count_municipality": "9",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Monroe",
+    "count_municipality": "1",
+    "type": "City",
+    "type_code": "2"
+  },
+  {
+    "county": "Monroe",
+    "count_municipality": "20",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Monroe",
+    "count_municipality": "10",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Montgomery",
+    "count_municipality": "1",
+    "type": "City",
+    "type_code": "2"
+  },
+  {
+    "county": "Montgomery",
+    "count_municipality": "10",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Montgomery",
+    "count_municipality": "10",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Nassau",
+    "count_municipality": "2",
+    "type": "City",
+    "type_code": "2"
+  },
+  {
+    "county": "Nassau",
+    "count_municipality": "3",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Nassau",
+    "count_municipality": "64",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "New York City",
+    "count_municipality": "1",
+    "type": "City",
+    "type_code": "2"
+  },
+  {
+    "county": "Niagara",
+    "count_municipality": "3",
+    "type": "City",
+    "type_code": "2"
+  },
+  {
+    "county": "Niagara",
+    "count_municipality": "12",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Niagara",
+    "count_municipality": "5",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Oneida",
+    "count_municipality": "3",
+    "type": "City",
+    "type_code": "2"
+  },
+  {
+    "county": "Oneida",
+    "count_municipality": "26",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Oneida",
+    "count_municipality": "19",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Onondaga",
+    "count_municipality": "1",
+    "type": "City",
+    "type_code": "2"
+  },
+  {
+    "county": "Onondaga",
+    "count_municipality": "19",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Onondaga",
+    "count_municipality": "15",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Ontario",
+    "count_municipality": "2",
+    "type": "City",
+    "type_code": "2"
+  },
+  {
+    "county": "Ontario",
+    "count_municipality": "16",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Ontario",
+    "count_municipality": "8",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Orange",
+    "count_municipality": "3",
+    "type": "City",
+    "type_code": "2"
+  },
+  {
+    "county": "Orange",
+    "count_municipality": "20",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Orange",
+    "count_municipality": "19",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Orleans",
+    "count_municipality": "10",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Orleans",
+    "count_municipality": "4",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Oswego",
+    "count_municipality": "2",
+    "type": "City",
+    "type_code": "2"
+  },
+  {
+    "county": "Oswego",
+    "count_municipality": "22",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Oswego",
+    "count_municipality": "9",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Otsego",
+    "count_municipality": "1",
+    "type": "City",
+    "type_code": "2"
+  },
+  {
+    "county": "Otsego",
+    "count_municipality": "24",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Otsego",
+    "count_municipality": "9",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Putnam",
+    "count_municipality": "6",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Putnam",
+    "count_municipality": "3",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Rensselaer",
+    "count_municipality": "2",
+    "type": "City",
+    "type_code": "2"
+  },
+  {
+    "county": "Rensselaer",
+    "count_municipality": "14",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Rensselaer",
+    "count_municipality": "6",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Rockland",
+    "count_municipality": "5",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Rockland",
+    "count_municipality": "19",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Saratoga",
+    "count_municipality": "2",
+    "type": "City",
+    "type_code": "2"
+  },
+  {
+    "county": "Saratoga",
+    "count_municipality": "19",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Saratoga",
+    "count_municipality": "9",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Schenectady",
+    "count_municipality": "1",
+    "type": "City",
+    "type_code": "2"
+  },
+  {
+    "county": "Schenectady",
+    "count_municipality": "5",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Schenectady",
+    "count_municipality": "2",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Schoharie",
+    "count_municipality": "16",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Schoharie",
+    "count_municipality": "6",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Schuyler",
+    "count_municipality": "8",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Schuyler",
+    "count_municipality": "4",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Seneca",
+    "count_municipality": "10",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Seneca",
+    "count_municipality": "4",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Steuben",
+    "count_municipality": "2",
+    "type": "City",
+    "type_code": "2"
+  },
+  {
+    "county": "Steuben",
+    "count_municipality": "32",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Steuben",
+    "count_municipality": "13",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "St Lawrence",
+    "count_municipality": "1",
+    "type": "City",
+    "type_code": "2"
+  },
+  {
+    "county": "St Lawrence",
+    "count_municipality": "32",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "St Lawrence",
+    "count_municipality": "12",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Suffolk",
+    "count_municipality": "10",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Suffolk",
+    "count_municipality": "33",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Sullivan",
+    "count_municipality": "15",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Sullivan",
+    "count_municipality": "6",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Tioga",
+    "count_municipality": "9",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Tioga",
+    "count_municipality": "6",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Tompkins",
+    "count_municipality": "1",
+    "type": "City",
+    "type_code": "2"
+  },
+  {
+    "county": "Tompkins",
+    "count_municipality": "9",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Tompkins",
+    "count_municipality": "6",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Ulster",
+    "count_municipality": "1",
+    "type": "City",
+    "type_code": "2"
+  },
+  {
+    "county": "Ulster",
+    "count_municipality": "20",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Ulster",
+    "count_municipality": "3",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Warren",
+    "count_municipality": "1",
+    "type": "City",
+    "type_code": "2"
+  },
+  {
+    "county": "Warren",
+    "count_municipality": "11",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Warren",
+    "count_municipality": "1",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Washington",
+    "count_municipality": "17",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Washington",
+    "count_municipality": "9",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Wayne",
+    "count_municipality": "15",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Wayne",
+    "count_municipality": "9",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Westchester",
+    "count_municipality": "6",
+    "type": "City",
+    "type_code": "2"
+  },
+  {
+    "county": "Westchester",
+    "count_municipality": "19",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Westchester",
+    "count_municipality": "23",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Wyoming",
+    "count_municipality": "16",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Wyoming",
+    "count_municipality": "7",
+    "type": "Village",
+    "type_code": "4"
+  },
+  {
+    "county": "Yates",
+    "count_municipality": "9",
+    "type": "Town",
+    "type_code": "3"
+  },
+  {
+    "county": "Yates",
+    "count_municipality": "3",
+    "type": "Village",
+    "type_code": "4"
+  }
+]

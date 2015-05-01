@@ -14,10 +14,10 @@
             </a>
             <!-- Sidebar: Brand (Top) -->
             <li class="sidebar-brand">
-                <a href="/home"> Hudson Valley Map</a>
+                <a href="/home"> Hudson Valley</a>
             </li> 
 
-            <!-- Sidebar: Type (Breadcrumb) -->
+            <!-- Sidebar: Type (Breadcrumb) 
             <li><a href="/regions">Regions</a> 
                 {{regionBreadcrumb}}
             </li>
@@ -26,10 +26,11 @@
                 {{countyBreadcrumb}}
             </li>
             {{/if}}
+            -->
             
             <!-- Sidebar: Subtype (Options) -->
             {{#each options}}
-                <li><a href="{{link}}">{{name}}</a></li>
+                <li class="sidebar-list"><a href="{{link}}" class="fa fa-lg {{icon}}"> {{name}} </a></li>
             {{/each}}
         </ul>
     </nav>

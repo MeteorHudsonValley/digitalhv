@@ -62,39 +62,59 @@ Router.onBeforeAction(function () {
 // template needs to be rendered as shown
 // for subsequent route declarations
 //----------------------------------------
+Router.route('/', function () {
+  this.render('content', {to: "appMain"});
+});
+
 Router.route('/home', function () {
-  this.layout('layout');
-  /*
-  this.render('appNav',   {to: 'appNav'});
-  this.render('appHeader',  {to: 'appHeader'});
-  this.render('appFooter',  {to: 'appFooter'});
-  this.render('portfolio',  {to: "appMain"});
-  */
+  this.render('portfolio', {to: "appMain"});
 });
 
 Router.route('/welcome', function () {
   this.render('portfolio', {to: "appMain"});
 });
 
-Router.route('/', function () {
-  this.render('content', {to: "appMain"});
+Router.route('/businesses', function () {
+  this.render('holder', {to: "appMain"});
+});
+Router.route('/restaurants', function () {
+  this.render('holder', {to: "appMain"});
+});
+Router.route('/events', function () {
+  this.render('holder', {to: "appMain"});
+});
+Router.route('/people', function () {
+  this.render('holder', {to: "appMain"});
+});
+Router.route('/local', function () {
+  this.render('holder', {to: "appMain"});
+});
+Router.route('/jobs', function () {
+  this.render('holder', {to: "appMain"});
 });
 
 Router.route('/regions', function () {
-  Session.set("sidebar.type","regions.all");
+  //Session.set("sidebar.type","regions.all");
+  Session.set("dhv.region",null);
+  Session.set("dhv.county",null);
+  this.render('holder', {to: "appMain"});
 });
 
 Router.route('/regions/:_id', function () {
-  Session.set("sidebar.type","regions."+this.params._id);
+  //Session.set("sidebar.type","regions."+this.params._id);
+  Session.set("dhv.region",this.params._id.capitalizeFirst());
+  Session.set("dhv.county",null);
+  this.render('holder', {to: "appMain"});
 });
 
 Router.route('/counties', function () {
-  Session.set("sidebar.subtype","counties.all");
-  this.render('content', {to: "appMain"});
+  //Session.set("sidebar.subtype","counties.all");
+  Session.set("dhv.county",null);
+  this.render('holder', {to: "appMain"});
 });
 
 Router.route('/counties/:_id', function () {
-  Session.set("sidebar.subtype","counties."+this.params._id);
-  this.render('content', {to: "appMain"});
+  Session.set("dhv.county",this.params._id.capitalizeFirst());
+  this.render('holder', {to: "appMain"});
 });
 

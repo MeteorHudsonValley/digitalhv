@@ -2,6 +2,19 @@
 // TODO: Make this configurable
 //================================================
 var options = {};
+
+options.menu = [
+	{ name: "Businesses", link:"/businesses", icon:"fa-bank" },
+	{ name: "Restaurants", link:"/restaurants", icon:"fa-beer" },
+	{ name: "Go Local", link:"/local", icon:"fa-leaf" },
+	{ name: "Events", 	link:"/events", icon:"fa-calendar" },
+	{ name: "People", link:"/people", icon:"fa-user" },
+	{ name: "Jobs", link:"/jobs", icon:"fa-bullhorn" },
+
+];
+
+
+/*
 options.regions = [
 	{ name: "Upper Hudson Valley", link:"/regions/upperhv" },
 	{ name: "Mid Hudson Valley", link:"/regions/midhv" },
@@ -24,6 +37,7 @@ options.midhv = [
 	{ name: "Ulster", link: "/counties/ulster" },
 	{ name: "Sullivan", link: "/counties/sullivan" }
 ];
+*/
 
 //================================================
 // TODO: Remove jQuery handling, move to events
@@ -60,11 +74,25 @@ Template.appNav.rendered = function(){
 	});
 };
 
+//================================================
+// Events
+//================================================
+Template.appNav.events({
+	'click': function(event){
+		//event.preventDefault();
+	}
+});
 
 //================================================
 // Helpers
 //================================================
 Template.appNav.helpers({
+
+	options: function(){
+		return options.menu;
+	}
+
+	/*
 	options: function(){ 
 		var type = Session.get("sidebar.type"), 
 			subtype = Session.get("sidebar.subtype");
@@ -81,8 +109,8 @@ Template.appNav.helpers({
 		else if (type=="regions.midhv")
 			return options.midhv;
 		return [];
-	},
-	showCounty: function(){
+	}
+	,showCounty: function(){
 		var route = Router.current();
 		if (route && route.url &&
 			route.url.indexOf("/counties")> -1)
@@ -92,8 +120,8 @@ Template.appNav.helpers({
 			route.params._id !=null)
 			return true;
 		return false;
-	},
-	regionBreadcrumb: function(){
+	}
+	,regionBreadcrumb: function(){
 		var type = Session.get("sidebar.type");
 		if (type=="regions.all")
 			return " > All";
@@ -104,8 +132,8 @@ Template.appNav.helpers({
 		else if (type=="regions.midhv")
 			return " > Mid Hudson";
 		return "";
-	},
-	countyBreadcrumb: function(){
+	}
+	,countyBreadcrumb: function(){
 		var route = Router.current(),
 			crumb = "none";
 		if (route && route.url && 
@@ -116,4 +144,5 @@ Template.appNav.helpers({
 		crumb = crumb.capitalizeFirst();
 		return " > "+crumb;
 	}
+	*/
 });

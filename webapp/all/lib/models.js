@@ -1,4 +1,11 @@
 //---------------------------------------------------------
+// Google Map Markers Collection Helper
+//---------------------------------------------------------
+Markers = new Mongo.Collection('markers');  
+
+DataNY.Markers = Markers;
+
+//---------------------------------------------------------
 // Counties Collection Helper
 // https://data.ny.gov/resource/4xc7-bukh.json?$limit=4000
 //
@@ -34,7 +41,7 @@ county 				: String (id)
 county_municipality : String
 type 				: String
 type_code 			: String	
-zip5 				: String
+zipcode 			: String
 phone 				: String
 location 			: Object
 	needs_recoding 	: Boolean
@@ -49,6 +56,7 @@ county_website 		: Object
 longitude 			: String
 latitude 			: String
 
+region				: String [upperhv, lowerhv, midhv]
 created 			: Date
 createdBy 			: String
 fixture 			: Boolean
@@ -60,6 +68,9 @@ Merge hierarchy and counties files by "county" key
 Counties = new Mongo.Collection("counties");
 
 DataNY.Counties = Counties;
+
+
+
 
 //---------------------------------------------------------
 // Businesses Collection Helper
@@ -79,6 +90,24 @@ DataNY.Counties = Counties;
 	    "county": "KINGS",
 	    "entity_type": "DOMESTIC BUSINESS CORPORATION"
   	},
+
+
+	dos_process_zip		: String,
+	dos_process_state	: String,
+	jurisdiction		: String,
+	dos_process_city	: String,
+	dos_process_name	: String,
+	current_entity_name	: String,
+	dos_process_address_1	: String,
+	dos_id				: String,
+	initial_dos_filing_date	: String,
+	county				: String,
+	entity_type			: String,
+
+	region				: String [upperhv, lowerhv, midhv]
+	created 			: Date
+	createdBy 			: String
+	fixture 			: Boolean
 */
 //---------------------------------------------------------
 var Businesses = new Mongo.Collection("businesses");
@@ -91,7 +120,11 @@ Businesses.helpers({
 	address : function() { return this.dos_process_address_1; },
 	city 	: function() { return this.dos_process_city; },
 	state 	: function() { return this.dos_process_state; },
-	zipcode : function() { return this.dos_process_zip; }
+	zipcode : function() { return this.dos_process_zip; },
+	region  : function() { return this.region; },
+	created  : function() { return this.created; },
+	creator  : function() { return this.createdBy; },
+	isFixture  : function() { return this.fixture; }
 });
 
 DataNY.Businesses = Businesses;

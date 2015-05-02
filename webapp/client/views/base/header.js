@@ -27,9 +27,8 @@ Template.appHeader.helpers({
 	},
 
 	isHiring: function(jobCount){
-		if (jobCount >0)
+		if (jobCount > 0)
 			return "active";
-		console.log("Returning null");
 		return "";
 	}
 });

@@ -107,26 +107,28 @@ Router.route('/map', function () {
 
 Router.route('/regions', function () {
   //Session.set("sidebar.type","regions.all");
-  Session.set("dhv.region",null);
-  Session.set("dhv.county",null);
-  this.render('holder', {to: "appMain"});
+  Session.set("dhv.region","all");
+  Session.set("dhv.county","all");
+  this.render('regions', {to: "appMain"});
 });
 
 Router.route('/regions/:_id', function () {
   //Session.set("sidebar.type","regions."+this.params._id);
-  Session.set("dhv.region",this.params._id.capitalizeFirst());
-  Session.set("dhv.county",null);
-  this.render('holder', {to: "appMain"});
+  Session.set("dhv.region",this.params._id);
+  Session.set("dhv.county","all");
+  this.render('regions', {to: "appMain"});
 });
 
 Router.route('/counties', function () {
   //Session.set("sidebar.subtype","counties.all");
-  Session.set("dhv.county",null);
-  this.render('holder', {to: "appMain"});
+  Session.set("dhv.region","all");
+  Session.set("dhv.county","all");
+  this.render('counties', {to: "appMain"});
 });
 
 Router.route('/counties/:_id', function () {
+  console.log("Routing to: "+this.params._id.capitalizeFirst())
   Session.set("dhv.county",this.params._id.capitalizeFirst());
-  this.render('holder', {to: "appMain"});
+  this.render('counties', {to: "appMain"});
 });
 

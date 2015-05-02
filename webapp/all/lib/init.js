@@ -37,5 +37,6 @@ String.prototype.capitalizeFirst = function() {
 // Meteor Startup Init (Common)
 //--------------------------------------------
 Meteor.startup(function(){
-	Debug.log("shared/init","Initialized ");	
+
+	Debug.log("all/init","Initialized ");
 });

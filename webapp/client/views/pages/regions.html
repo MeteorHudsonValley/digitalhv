@@ -1,0 +1,51 @@
+<template name="regions">
+	<div id="top" class="container-fluid">
+		{{#each regions}}
+			{{>region }}
+		{{/each}}
+	</div>
+</template>
+
+<template name="region">
+	<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 basecard">
+		<div class="panel panel-default">
+			<div class="panel-heading clearfix">
+			    <h3 class="panel-title pull-left basecard-text">
+			    	{{county}}</h3>
+			      <a class="btn btn-primary pull-right {{region}} disabled" 
+			      	href="#">
+			        <i class="fa fa-pencil"></i>
+			        Edit
+			      </a>
+			</div>
+		    <div class="list-group">
+		      <div class="list-group-item">
+		        <p class="list-group-item-text">County Seat</p>
+		        <h4 class="list-group-item-heading">{{county_seat}}</h4>
+		      </div>
+		      <div class="list-group-item">
+		        <p class="list-group-item-text">Address</p>
+		        <h4 class="list-group-item-heading">{{address}} {{city}}, NY {{zip5}}</h4>
+		      </div>
+		    </div>
+			<div class="panel-footer">
+				<small class="basecard-text pull-left">
+					<a href="/regions/{{region}}">
+						<span class="badge {{region}}"> {{region}} </span>
+					</a>
+					<a href="/counties/{{county}}">
+						<span class="badge {{county}}"> {{county}} </span>
+					</a>
+				</small>
+			</div>
+		</div>
+	</div>
+</template>
+
+<template name="counties">
+	<div id="top" class="container-fluid">
+		{{#each counties}}
+			{{>region }}
+		{{/each}}
+	</div>
+</template>

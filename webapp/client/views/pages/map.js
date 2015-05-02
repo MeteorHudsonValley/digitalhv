@@ -10,6 +10,7 @@ Template.mapPage.helpers({
 	  		var center = Session.get("map.center") || {},
 	  			lat = center.lat || "41.5202778",
 	  			lng = center.lng || "-73.9969444";
+	  			console.log("Google Maps Recentered on: "+ +lat + +lng);
 
 		  // Map initialization options
 			return {
@@ -94,8 +95,7 @@ Template.mapPage.onCreated(function() {
 				// Remove the reference to this marker instance
 				delete markers[oldDocument._id];
 			}
-		});
-		
+		});		
 	});
 
 });

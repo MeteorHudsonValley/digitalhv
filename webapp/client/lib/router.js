@@ -102,10 +102,13 @@ Router.route('/jobs', function () {
 });
 Router.route('/map', function () {
   this.render('mapPage', {to: "appMain"});
-});
+}, { name: 'map' });
 Router.route('/map/:lat/:lng', function () {
   this.render('mapPage', {to: "appMain"});
-  Session.set("map.center",{lat: this.params.lat, lng: this.params.lng});
+  Session.set("map.center",{
+    lat: this.params.lat, 
+    lng: this.params.lng}
+  );
 });
 
 Router.route('/regions', function () {

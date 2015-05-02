@@ -6,16 +6,25 @@
 	</div>
 </template>
 
+<template name="counties">
+	<div id="top" class="container-fluid">
+		{{#each counties}}
+			{{>region }}
+		{{/each}}
+	</div>
+</template>
+
+
 <template name="region">
 	<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 basecard">
 		<div class="panel panel-default">
 			<div class="panel-heading clearfix">
 			    <h3 class="panel-title pull-left basecard-text">
 			    	{{county}}</h3>
-			      <a class="btn btn-primary pull-right {{region}} disabled" 
-			      	href="#">
-			        <i class="fa fa-pencil"></i>
-			        Edit
+			      <a class="btn btn-primary latlng pull-right {{region}}" 
+			      	href="/map/{{latitude}}/{{longitude}}"
+			      	data-toggle="tooltip" data-placement="top" title="Lat/{{latitude}}, Long/{{longitude}}">
+			        <i class="fa fa-2x fa-map-marker"></i>
 			      </a>
 			</div>
 		    <div class="list-group">
@@ -25,7 +34,19 @@
 		      </div>
 		      <div class="list-group-item">
 		        <p class="list-group-item-text">Address</p>
-		        <h4 class="list-group-item-heading">{{address}} {{city}}, NY {{zip5}}</h4>
+		        <h4 class="list-group-item-heading">{{contact_type}}</h4>
+		        <h4 class="list-group-item-heading">
+		        {{address}} {{city}}, NY {{zip5}}</h4>
+		      </div>
+		      <div class="list-group-item">
+		        <p class="list-group-item-text">Phone</p>
+		        <h4 class="list-group-item-heading">{{phone}}</h4>
+		      </div>
+		      <div class="list-group-item">
+		        <p class="list-group-item-text">Municipalities</p>
+		        <h4 class="list-group-item-heading">{{village}} Villages</h4>
+		        <h4 class="list-group-item-heading">{{town}} Towns</h4>
+		        <h4 class="list-group-item-heading">{{city}} Cities</h4>
 		      </div>
 		    </div>
 			<div class="panel-footer">
@@ -39,13 +60,5 @@
 				</small>
 			</div>
 		</div>
-	</div>
-</template>
-
-<template name="counties">
-	<div id="top" class="container-fluid">
-		{{#each counties}}
-			{{>region }}
-		{{/each}}
 	</div>
 </template>

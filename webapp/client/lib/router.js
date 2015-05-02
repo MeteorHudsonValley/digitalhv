@@ -101,8 +101,11 @@ Router.route('/jobs', function () {
   this.render('content', {to: "appMain"});
 });
 Router.route('/map', function () {
-  name: 'map',
   this.render('mapPage', {to: "appMain"});
+});
+Router.route('/map/:lat/:lng', function () {
+  this.render('mapPage', {to: "appMain"});
+  Session.set("map.center",{lat: this.params.lat, lng: this.params.lng});
 });
 
 Router.route('/regions', function () {

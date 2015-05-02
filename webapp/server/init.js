@@ -55,20 +55,6 @@ var initFixtures = function(){
 };
 
 
-/*
-{
-    "county": "Albany",
-    "count_municipality": "3",
-    "type": "City",
-    "type_code": "2"
-
-    "region" : String
-    created : Date
-    creator: UserID
-    fixture: true
-  }
-*/
-
 var upperhv = ["Columbia","Greene","Rensselaer","Albany"],
 	lowerhv = ["Westchester","Rockland","Putnam"],
 	midhv = ["Dutchess","Ulster","Sullivan","Orange"];
@@ -97,6 +83,9 @@ var loadCountyData = function(userID){
 	_.each(counties, function(item,index){
 			item.region = getRegion(item.county);
 			if (item.region){
+				item.town = "0";
+				item.village = "0";
+				item.city = "0";
 				item.fixture = true;
 				item.created = current;
 				item.creator = userID || null;
@@ -104,9 +93,17 @@ var loadCountyData = function(userID){
 			}
 	});
 
-	//updateCountyData();
+	updateCountyData();
 };
 
+/*
+  {
+    "county": "Albany",
+    "count_municipality": "6",
+    "type": "Village",
+    "type_code": "4"
+  },
+*/
 var updateCountyData = function(){
 
 	var asset = Assets.getText("assets/hierarchy.json"),
@@ -114,9 +111,17 @@ var updateCountyData = function(){
 
 	_.each(counties, function(item,index){
 		//console.log("Updating county="+item.county+" with item",item);
+		var data;
+		if (item.type==="Village") 
+			data = {village: item.count_municipality};
+		else if (item.type==="Town") 
+			data = {town: item.count_municipality};
+		else if (item.type==="City") 
+			data = {city: item.count_municipality};
+
 		DataNY.Counties.update(
 			{county: item.county},
-			{$set: item}
+			{$set: data}
 		);
 	});
 };

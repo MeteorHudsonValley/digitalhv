@@ -12,6 +12,8 @@ Meteor.startup(function () {
 	Session.set("dhv.region",DataNY.Regions.MidHV.name.capitalizeFirst());
 	Session.set("dhv.county",null);
 	Session.set("dhv.zipcode",null);
+	Session.set("map.center",{lat: "41.5202778", lng: "-73.9969444"});
+
 	//Router.go("/");	
 
 	Debug.log("client/init","Initialized ");

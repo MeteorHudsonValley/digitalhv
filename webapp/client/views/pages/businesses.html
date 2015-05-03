@@ -1,0 +1,102 @@
+
+<template name="businesses">
+	<div id="businessHeader" class="container-fluid">
+        <div class="bs-component">
+          	<div class="btn-toolbar">
+                <div class="btn-group">
+                	<a href="/businesses"  
+                  	 class="btn btn-default"> All </a>
+                {{#each counties}}
+                  	<a href="/businesses/county/{{capitalizeAll this}}"  
+                  	 class="btn {{this}}"> {{this}}</a>
+                {{/each}}
+                </div>
+            </div>
+        </div>
+	</div>
+
+	<div id="businessContent" class="container-fluid">
+		<!--
+		<div class="bootcards-list">
+			<div class="panel panel-default">
+	   	 		<div class="list-group">
+					{{#each businesses}}
+						{{>business }}
+					{{/each}}
+				</div>
+			</div>
+		</div>
+		-->
+		<ul class="list-group">
+			{{#each businesses}}
+				{{>business }}
+			{{/each}}
+		</ul>
+	</div>
+</template>
+
+<template name="business">
+  <li class="list-group-item">
+  	<b>{{current_entity_name}} </b> 
+  	   <small>{{dos_process_address_1}}, {{dos_process_city}}</small>
+  	<br> 
+  	<a href="/businesses/county/{{county}}">
+  		<span class="label {{countyCase}}">{{county}}</span>
+  	</a>
+	<span class="label {{region}}">{{region}}</span>
+  	<span class="label label-default">{{entity_type}} </span>
+  </li>
+</template>
+
+<!--
+<template name="business">
+	<div class="col-md-4 col-sm-6 col-xs-12 basecard">
+		<div class="panel panel-default">
+			<div class="panel-heading clearfix {{countyCase}}">
+			    <h3 class="panel-title pull-left basecard-text">
+			    	{{current_entity_name}} <br>
+			    	<small>Business Card</small>
+			    </h3>
+			      <a class="btn btn-primary latlng pull-right {{region}}" 
+			      	href="/map/{{latitude}}/{{longitude}}"
+			      	data-toggle="tooltip" data-placement="top" title="Lat/{{latitude}}, Long/{{longitude}}">
+			        <i class="fa fa-2x fa-map-marker"></i>
+			      </a>
+			</div>
+		    <div class="list-group">
+		      <div class="list-group-item">
+		        <p class="list-group-item-text">Business ID</p>
+		        <h4 class="list-group-item-heading">{{dos_id}}</h4>
+		      </div>
+		      <div class="list-group-item">
+		        <p class="list-group-item-text">Address</p>
+		        <h4 class="list-group-item-heading">{{dos_process_name}}</h4>
+		        <h4 class="list-group-item-heading">{{dos_process_address_1}}</h4>
+		        <h4 class="list-group-item-heading">{{dos_process_city}}</h4>
+		        <h4 class="list-group-item-heading">{{dos_process_state}} {{dos_process_zip}}</h4>
+		      </div>
+		      <div class="list-group-item">
+		        <p class="list-group-item-text">Entity Name</p>
+		        <h4 class="list-group-item-heading">{{current_entity_name}}</h4>
+		        <p class="list-group-item-text">Entity Type</p>
+		        <h4 class="list-group-item-heading">{{entity_type}}</h4>
+		        <p class="list-group-item-text">Entity Type Code</p>
+		        <h4 class="list-group-item-heading">{{entity_type_id}}</h4>
+		        <p class="list-group-item-text">Jurisdiction</p>
+		        <h4 class="list-group-item-heading">{{jurisdiction}}</h4>
+		      </div>
+		    </div>
+			<div class="panel-footer">
+				<small class="basecard-text pull-left">
+					<a href="/businesses/type/{{entity_type_id}}">
+						<span class="badge business"> {{entity_type}} </span>
+					</a>
+					<a href="/counties/{{county}}">
+						<span class="badge {{countyCase}}"> {{county}} </span>
+					</a>
+				</small>
+			</div>
+		</div>
+	</div>
+</template>
+-->

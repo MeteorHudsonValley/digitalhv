@@ -3,7 +3,7 @@
 //---------------------------------------------------------
 Markers = new Mongo.Collection('markers');  
 
-DataNY.Markers = Markers;
+DataNY.Coll.Markers = Markers;
 
 //---------------------------------------------------------
 // Counties Collection Helper
@@ -67,7 +67,7 @@ Merge hierarchy and counties files by "county" key
 //---------------------------------------------------------
 Counties = new Mongo.Collection("counties");
 
-DataNY.Counties = Counties;
+DataNY.Coll.Counties = Counties;
 
 
 
@@ -127,6 +127,6 @@ Businesses.helpers({
 	isFixture  : function() { return this.fixture; }
 });
 
-DataNY.Businesses = Businesses;
+DataNY.Coll.Businesses = Businesses;
 
 //---------------------------------------------------------

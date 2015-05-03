@@ -17,5 +17,6 @@ dburles:collection-helpers
 pcuci:bootcards
 accounts-password
 dburles:google-maps
-autopublish
 accounts-google
+meteorhacks:kadira
+meteorhacks:kadira-profiler

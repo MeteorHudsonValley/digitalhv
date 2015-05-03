@@ -28,15 +28,34 @@
 	"type_code" : "4"
 }
 */
+Template.regionHeader.helpers({
+	route: function(){
+		return Router.current().url;
+	},
+	count: function(){
+		var counts = {
+			businesses: 0,
+			restaurants: 0,
+			local: 0,
+			events: 0,
+			people: 0,
+			jobs: 0
+		};
+
+		// TODO: Check context, return relevant number of 
+		return counts;
+	}
+});
+
 
 Template.regions.helpers({
 	regions: function(){
 		var region=Session.get("dhv.region") || "all";
 		console.log("region="+region);
 		if (region==="all")
-			return DataNY.Counties.find();
+			return DataNY.Coll.Counties.find();
 		else {
-			return DataNY.Counties.find({region: region});
+			return DataNY.Coll.Counties.find({region: region});
 		}
 	}
 
@@ -47,9 +66,9 @@ Template.counties.helpers({
 		var county=Session.get("dhv.county") || "all";
 		console.log("county="+county);
 		if (county==="all")
-			return DataNY.Counties.find();
+			return DataNY.Coll.Counties.find();
 		else {
-			return DataNY.Counties.find({county: county});
+			return DataNY.Coll.Counties.find({county: county});
 		}
 	}
 

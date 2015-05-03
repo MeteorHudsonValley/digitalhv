@@ -34,12 +34,13 @@ Template.mapPage.onCreated(function() {
 	      map: map.instance
 	    });
 
+	    /*
 	    // Allow insertion of events 
 	    google.maps.event.addListener(
 	    	map.instance, 
 	    	'click', 
 	    	function(event) {
-	      		var id = DataNY.Markers.insert({ 
+	      		var id = DataNY.Coll.Markers.insert({ 
 	      			lat: event.latLng.lat(), 
 	      			lng: event.latLng.lng() 
 	      		});
@@ -95,7 +96,8 @@ Template.mapPage.onCreated(function() {
 				// Remove the reference to this marker instance
 				delete markers[oldDocument._id];
 			}
-		});		
+		});	
+		*/	
 	});
 
 });

@@ -3,6 +3,8 @@
 //==============================
 Meteor.startup(function () {
 
+	setIndexes();
+
 	// If you use browser-policy package, uncomment below
 	// See: https://atmospherejs.com/natestrauser/font-awesome
 	//
@@ -12,11 +14,58 @@ Meteor.startup(function () {
 	Debug.log("server/next","Initialized ");
 });
 
+var setIndexes = function(){
+	DataNY.Coll.Businesses._ensureIndex({ 
+		"dos_id": 1,
+		"county": 1,
+		"entity_type": 1,
+		"initial_dos_filing_date":1,
+		"dos_process_name":1
+	});
+};
+
 //==============================
 // Publish Data Query EP
 //==============================
 var initPublications = function(){
-	//TODO
+
+	Meteor.publish("MyMarkers", function(){
+		return DataNY.Coll.Markers.find({});
+	});
+
+	Meteor.publish("MyBusinesses", function(options){
+		var _options 	= options ||{},
+			_sort 		= { dos_process_name: -1 },
+			_limit		= _options.limit,
+			_query 		= {},
+			_fields		= {
+				dos_id: 1,
+				current_entity_name: 1,
+				dos_process_address_1:1,
+				dos_process_city:1,
+				county: 1,
+				region: 1,
+				countyCase:1,
+				entity_type: 1
+			};
+
+		if (options.county) {
+			_query={county: options.county};
+		}
+
+		return DataNY.Coll.Businesses.find(
+				_query, 
+				{
+					sort : _sort, 
+					limit: _limit,
+					fields: _fields
+				}
+			);
+	});
+
+	Meteor.publish("MyCounties", function(){
+		return DataNY.Coll.Counties.find({});
+	});
 }
 
 //==============================
@@ -52,27 +101,53 @@ var initFixtures = function(){
 	}
 
 	loadCountyData(user._id);
-};
-
-
-var upperhv = ["Columbia","Greene","Rensselaer","Albany"],
-	lowerhv = ["Westchester","Rockland","Putnam"],
-	midhv = ["Dutchess","Ulster","Sullivan","Orange"];
-var getRegion = function(county){
-	county = county || "Unknown";
-	county = county.trim().toLowerCase().capitalizeFirst();
-	if (_.contains(upperhv, county))
-		return "upperhv";
-	if (_.contains(midhv, county))
-		return "midhv";
-	if (_.contains(lowerhv, county))
-		return "lowerhv";
-	return null;
+	loadBusinessData(user._id);
 };
 
 // Store only data for HV counties
+var loadBusinessData = function(userID){
+	var count = DataNY.Coll.Businesses.find({fixture: true}).count();
+	if (count>0) 
+		return;
+
+	var current = new Date();
+	loadBusinessDataForCounty(userID, "albany", current);
+	loadBusinessDataForCounty(userID, "columbia", current);
+	loadBusinessDataForCounty(userID, "dutchess", current);
+	loadBusinessDataForCounty(userID, "greene", current);
+	loadBusinessDataForCounty(userID, "orange", current);
+	loadBusinessDataForCounty(userID, "putnam", current);
+	loadBusinessDataForCounty(userID, "rensselaer", current);
+	loadBusinessDataForCounty(userID, "rockland", current);
+	loadBusinessDataForCounty(userID, "sullivan", current);
+	loadBusinessDataForCounty(userID, "ulster", current);
+	loadBusinessDataForCounty(userID, "westchester", current);
+}
+
+var loadBusinessDataForCounty = function(userID, county, date){
+	console.log("Loading "+county+" data");
+	var asset = Assets.getText("assets/business/"+county+".json"),
+		counties = JSON.parse(asset);
+
+	_.each(counties, function(item,index){
+			item.countyCase = item.county.toLowerCase().capitalizeFirst();
+			item.region = DataNY.getRegion(item.countyCase);
+			if (item.region){
+				item.longitude = 0;
+				item.latitude = 0;
+				item.fixture = true;
+				item.entity_type_id = DataNY.Businesses.getTypeID(item.entity_type);
+				item.created = date;
+				item.creator = userID || null;
+				item._id = DataNY.Coll.Businesses.insert(item);				
+			} 
+	});
+}
+
+
+// Store only data for HV counties
 var loadCountyData = function(userID){
-	var count = DataNY.Counties.find({isFixture: true}).count();
+	var count = DataNY.Coll.Counties.find({fixture: true}).count();
 	if (count>0) 
 		return;
 
@@ -81,16 +156,16 @@ var loadCountyData = function(userID){
 		current = new Date();
 
 	_.each(counties, function(item,index){
-			item.region = getRegion(item.county);
+			item.region = DataNY.getRegion(item.county);
 			if (item.region){
-				item.town = "0";
-				item.village = "0";
-				item.city = "0";
+				item.mTown = "0";
+				item.mVillage = "0";
+				item.mCity = "0";
 				item.fixture = true;
 				item.created = current;
 				item.creator = userID || null;
-				item._id = DataNY.Counties.insert(item);				
-			}
+				item._id = DataNY.Coll.Counties.insert(item);				
+			} 
 	});
 
 	updateCountyData();
@@ -113,13 +188,13 @@ var updateCountyData = function(){
 		//console.log("Updating county="+item.county+" with item",item);
 		var data;
 		if (item.type==="Village") 
-			data = {village: item.count_municipality};
+			data = {mVillage: item.count_municipality};
 		else if (item.type==="Town") 
-			data = {town: item.count_municipality};
+			data = {mTown: item.count_municipality};
 		else if (item.type==="City") 
-			data = {city: item.count_municipality};
+			data = {mCity: item.count_municipality};
 
-		DataNY.Counties.update(
+		DataNY.Coll.Counties.update(
 			{county: item.county},
 			{$set: data}
 		);

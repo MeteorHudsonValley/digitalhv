@@ -1,5 +1,6 @@
 <template name="regions">
-	<div id="top" class="container-fluid">
+	{{>regionHeader}}
+	<div id="businessContent" class="container-fluid">
 		{{#each regions}}
 			{{>region }}
 		{{/each}}
@@ -7,20 +8,53 @@
 </template>
 
 <template name="counties">
-	<div id="top" class="container-fluid">
+	{{>regionHeader}}
+	<div id="business" class="container-fluid">
 		{{#each counties}}
 			{{>region }}
 		{{/each}}
 	</div>
 </template>
 
+<template name="regionHeader">
+	<div id="businessHeader" class="container-fluid">
+		<p class="bs-component">
+			<a href="{{route}}/businesses" class="btn all">
+				<i class="fa fa-lg fa-bank"></i>Businesses
+				<span class="badge">{{count.businesses}}</span>
+			</a>
+			<a href="{{route}}/restaurants" class="btn all">
+				<i class="fa fa-lg fa-beer"></i>Restaurants
+				<span class="badge">{{count.restaurants}}</span>
+			</a>
+			<a href="{{route}}/local" class="btn all">
+				<i class="fa fa-lg fa-leaf"></i>Go Local
+				<span class="badge">{{count.local}}</span>
+			</a>
+			<a href="{{route}}/events" class="btn all">
+				<i class="fa fa-lg fa-calendar"></i>Events
+				<span class="badge">{{count.events}}</span>
+			</a>
+			<a href="{{route}}/people" class="btn all">
+				<i class="fa fa-lg fa-users"></i>People
+				<span class="badge">{{count.people}}</span>
+			</a>
+			<a href="{{route}}/jobs" class="btn all">
+				<i class="fa fa-lg fa-bullhorn"></i>Jobs
+				<span class="badge">{{count.jobs}}</span>
+			</a>
+        </p>
+	</div>
+</template>
 
 <template name="region">
 	<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 basecard">
 		<div class="panel panel-default">
-			<div class="panel-heading clearfix">
+			<div class="panel-heading clearfix card-county">
 			    <h3 class="panel-title pull-left basecard-text">
-			    	{{county}}</h3>
+			    	{{county}} <br>
+			    	<small>County Card</small>
+			    </h3>
 			      <a class="btn btn-primary latlng pull-right {{region}}" 
 			      	href="/map/{{latitude}}/{{longitude}}"
 			      	data-toggle="tooltip" data-placement="top" title="Lat/{{latitude}}, Long/{{longitude}}">
@@ -35,8 +69,9 @@
 		      <div class="list-group-item">
 		        <p class="list-group-item-text">Address</p>
 		        <h4 class="list-group-item-heading">{{contact_type}}</h4>
-		        <h4 class="list-group-item-heading">
-		        {{address}} {{city}}, NY {{zip5}}</h4>
+		        <h4 class="list-group-item-heading">{{address}} </h4>
+		        <h4 class="list-group-item-heading">{{city}} </h4>
+		        <h4 class="list-group-item-heading">NY {{zip5}} </h4>
 		      </div>
 		      <div class="list-group-item">
 		        <p class="list-group-item-text">Phone</p>
@@ -44,9 +79,9 @@
 		      </div>
 		      <div class="list-group-item">
 		        <p class="list-group-item-text">Municipalities</p>
-		        <h4 class="list-group-item-heading">{{village}} Villages</h4>
-		        <h4 class="list-group-item-heading">{{town}} Towns</h4>
-		        <h4 class="list-group-item-heading">{{city}} Cities</h4>
+		        <h4 class="list-group-item-heading">{{mVillage}} Villages</h4>
+		        <h4 class="list-group-item-heading">{{mTown}} Towns</h4>
+		        <h4 class="list-group-item-heading">{{mCity}} Cities</h4>
 		      </div>
 		    </div>
 			<div class="panel-footer">

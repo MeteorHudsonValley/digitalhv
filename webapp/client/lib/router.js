@@ -22,10 +22,13 @@ Router.configure({
   // NN TODO: check this isn"t excessive (move to per-route?)
   waitOn: function () {
     return [
+      Meteor.subscribe("MyCounties"),
+      Meteor.subscribe("MyMarkers")
       //Meteor.subscribe("publicLists"), Meteor.subscribe("todos")
     ];
   }
 });
+
 
 //----------------------------------------
 // Default "Before" Action
@@ -42,14 +45,10 @@ Router.onBeforeAction(function () {
     //this.redirect("/welcome");
     this.next();
   } 
-  else {
-    this.next();
-  }  
+  else { this.next();}  
 }, 
 {
-  except: [
-    // list routes exempt from login check
-  ]
+  except: [] // list routes exempt from login check
 });
 
 
@@ -82,27 +81,109 @@ Router.route('/welcome', function () {
   this.render('portfolio', {to: "appMain"});
 });
 
-Router.route('/businesses', function () {
-  this.render('holder', {to: "appMain"});
+
+Router.route('/businesses',{
+  loadingTemplate: 'loading',
+
+  waitOn: function(){
+    return Meteor.subscribe('MyBusinesses',{
+      limit:100
+    });
+  },
+
+  action: function(){
+    Session.set("dhv.businesses",{
+      all: true, 
+      id: null,
+      county:null,
+      region:null,
+      type: null 
+    });
+    this.render('businesses', {to: "appMain"});
+  }
 });
-Router.route('/restaurants', function () {
-  this.render('holder', {to: "appMain"});
+
+Router.route('/businesses/county/:_id', {
+  loadingTemplate: 'loading',
+  waitOn: function(){
+    console.log("Subscribing with county=",this.params._id);
+    return Meteor.subscribe('MyBusinesses',{
+      county:this.params._id,
+      limit:100
+    });
+  },
+
+  action: function(){
+    Session.set("dhv.businesses",{
+      all: false, 
+      id: null,
+      county:this.params._id,
+      region:null,
+      type: null 
+    });
+    this.render('businesses', {to: "appMain"});
+  }
 });
-Router.route('/events', function () {
-  this.render('holder', {to: "appMain"});
+
+Router.route('/businesses/id/:_id', function () {
+  Session.set("dhv.businesses",{
+      all: false, 
+      id: this.params._id,
+      county:null,
+      region:null,
+      type: null 
+    });
+  this.render('businesses', {to: "appMain"});
 });
-Router.route('/people', function () {
-  this.render('holder', {to: "appMain"});
+
+// Redirects
+Router.route('/regions/:id/businesses', function () {
+  this.redirect('/businesses');
 });
-Router.route('/local', function () {
-  this.render('holder', {to: "appMain"});
+Router.route('/counties/:id/businesses', function () {
+  this.redirect('/businesses/county/'+this.params._id.toUpperCase());
 });
-Router.route('/jobs', function () {
-  this.render('content', {to: "appMain"});
+
+
+
+
+Router.route('/counties/:_id/businesses', function () {
+  Session.set("dhv.businesses",{
+      all: false, 
+      id: null,
+      county:this.params._id,
+      region:null,
+      type: null 
+    });
+  this.render('businesses', {to: "appMain"});
 });
+
+Router.route('/regions/:_id/businesses', function () {
+  Session.set("dhv.businesses",{
+      all: false, 
+      id: null,
+      county: null,
+      region:this.params._id,
+      type: null 
+    });
+  this.render('businesses', {to: "appMain"});
+});
+
+Router.route('/businesses/type/:_id', function () {
+  Session.set("dhv.businesses",{
+      all: false, 
+      id: null,
+      county:null,
+      region:null,
+      type: this.params._id 
+    });
+  this.render('businesses', {to: "appMain"});
+});
+
 Router.route('/map', function () {
   this.render('mapPage', {to: "appMain"});
 }, { name: 'map' });
+
 Router.route('/map/:lat/:lng', function () {
   this.render('mapPage', {to: "appMain"});
   Session.set("map.center",{
@@ -136,5 +217,32 @@ Router.route('/counties/:_id', function () {
   console.log("Routing to: "+this.params._id.capitalizeFirst())
   Session.set("dhv.county",this.params._id.capitalizeFirst());
   this.render('counties', {to: "appMain"});
+});
+
+
+
+
+Router.route('/new/:_id', function () {
+  Session.set("dhv.content","Creating New "+this.params._id.capitalizeFirst());
+  this.render('content', {to: "appMain"});
+});
+Router.route('/restaurants', function () {
+  Session.set("dhv.content","Restaurants Page");
+  this.render('content', {to: "appMain"});
+});
+Router.route('/events', function () {
+  Session.set("dhv.content","Events Page");
+  this.render('content', {to: "appMain"});
+});
+Router.route('/people', function () {
+  this.render('holder', {to: "appMain"});
+});
+Router.route('/local', function () {
+  Session.set("dhv.content","Local Page");
+  this.render('content', {to: "appMain"});
+});
+Router.route('/jobs', function () {
+  Session.set("dhv.content","Jobs Page");
+  this.render('content', {to: "appMain"});
 });
 

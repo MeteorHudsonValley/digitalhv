@@ -1,5 +1,6 @@
 @base-bg: #3F51B5;
 @base-body: #C5CAE9;
+@base-bg-card: rgba(44, 62, 80, 0.7);
 @base-bg-accent: #E91E63;
 @base-bg-default: #2c3e50; /* #2c3e50; */
 
@@ -9,6 +10,7 @@
 @color-indigo: #3F51B5;
 @color-teal: #009688;
 @color-darkgray: #2c3e50;
+@color-darkgreen: #33691E;
 
 @color-business : #F44336;
 @color-restaurants : #9C27B0;
@@ -21,27 +23,32 @@
 @color-midhv : #673AB7;
 @color-lowerhv : #4CAF50;
 
-@color-columbia : #F44336;
-@color-greene : #9C27B0;
-@color-rensselaer : #3F51B5; 
-@color-albany : #03A9F4 ;
-@color-westchester : #CDDC39;
-@color-rockland : #009688;
+@color-columbia : #01579B;
+@color-greene : #1B5E20;
+@color-rensselaer : #FF5722; 
+@color-albany :  #827717;
+@color-westchester : #673AB7;
+@color-rockland : #C2185B;
 @color-putnam : #795548;
-@color-dutchess : #FF5722;
-@color-orange : #9E9E9E;
-@color-ulster : #EEFF41;
+@color-dutchess : #009688;
+@color-orange : #F44336;
+@color-ulster : #B71C1C;
 @color-sullivan : #03A9F4;
 
 /* Color for cards */
 
 .basecard {
 	margin-bottom: 10px !important;
+
 	.panel{
 		border-color: gray;
 	}
-	.panel-heading{
+	.card-county{
 		background-color: @color-darkgray !important;
+		color: white !important;
+	}
+	.card-business{
+		background-color: @color-darkgreen !important;
 		color: white !important;
 	}
 }
@@ -86,39 +93,43 @@
 .lowerhv {
 	background-color : #4CAF50 !important;
 }
+.all {
+	background-color : yellow !important;
+	color: black !important;
+}
 
 .Columbia {
-	background-color : #F44336 !important;
+	background-color : @color-columbia !important;
 }
 .Greene {
-	background-color : #9C27B0 !important;
+	background-color : @color-greene !important;
 }
 .Rensselaer {
-	background-color : #3F51B5 !important;
+	background-color : @color-rensselaer !important;
 }
 .Albany {
-	background-color : #03A9F4 !important;
+	background-color : @color-albany !important;
 }
 .Westchester {
-	background-color : #CDDC39 !important;
+	background-color : @color-westchester !important;
 }
 .Rockland {
-	background-color : #009688 !important;
+	background-color : @color-rockland !important;
 }
 .Putnam {
-	background-color : #795548 !important;
+	background-color : @color-putnam !important;
 }
 .Dutchess {
-	background-color : #FF5722 !important;
+	background-color : @color-dutchess !important;
 }
 .Orange {
-	background-color : #9E9E9E !important;
+	background-color : @color-orange !important;
 }
 .Ulster {
-	background-color : #EEFF41 !important;
+	background-color : @color-ulster !important;
 }
 .Sullivan {
-	background-color : #03A9F4 !important;
+	background-color : @color-sullivan !important;
 }
 
 .mapContainer {
@@ -250,7 +261,7 @@
 
 #appMain{
 	/*padding-top:75px;*/
-	background-color: @base-body;
+	/*background-color: @base-bg-card; */
 
 	.container-fluid{
 		padding-top:75px;
@@ -300,4 +311,38 @@ footer {
 		padding-left: 30px !important;
 		padding-right: 30px !important;
 	}
+}
+
+#business.container-fluid{
+	padding-top: 10px !important;
+}
+
+#businessHeader.container-fluid{
+	padding: 10px !important;
+	background-color: black;
+	.btn {
+		margin-top: 5px !important;
+		border-color: transparent !important;
+	}
+	a {
+		color: white;
+	}	
+	.badge {
+		background-color: black !important;
+		color: yellow !important;
+		padding: 8px !important;
+		margin-left: 10px;
+	}
+}
+
+#businessContent.container-fluid{
+	padding-top: 25px !important;
+	padding-bottom: 25px !important;
+	background-color: @base-bg-card;
+	span.label {
+		margin-right: 10px !important;
+	}
+}
+
+#contentPage {
 }

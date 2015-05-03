@@ -137,37 +137,15 @@ Router.route('/businesses/id/:_id', function () {
 });
 
 // Redirects
-Router.route('/regions/:id/businesses', function () {
+Router.route('/regions/:_id/businesses', function () {
   this.redirect('/businesses');
 });
-Router.route('/counties/:id/businesses', function () {
+Router.route('/counties/:_id/businesses', function () {
   this.redirect('/businesses/county/'+this.params._id.toUpperCase());
 });
 
 
 
-
-Router.route('/counties/:_id/businesses', function () {
-  Session.set("dhv.businesses",{
-      all: false, 
-      id: null,
-      county:this.params._id,
-      region:null,
-      type: null 
-    });
-  this.render('businesses', {to: "appMain"});
-});
-
-Router.route('/regions/:_id/businesses', function () {
-  Session.set("dhv.businesses",{
-      all: false, 
-      id: null,
-      county: null,
-      region:this.params._id,
-      type: null 
-    });
-  this.render('businesses', {to: "appMain"});
-});
 
 Router.route('/businesses/type/:_id', function () {
   Session.set("dhv.businesses",{

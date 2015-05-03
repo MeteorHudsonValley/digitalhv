@@ -21,15 +21,25 @@ Template.businesses.helpers({
 		var business=Session.get("dhv.businesses");
 		if (business){
 			if (business.all) 
-				return DataNY.Coll.Businesses.find({});
+				return DataNY.Coll.Businesses.find(
+					{},
+					{sort:{dos_id:1}}
+				);
 			if (business.id)
-				return DataNY.Coll.Businesses.find({_id: business.id});
+				return DataNY.Coll.Businesses.find(
+					{_id: business.id},
+					{sort:{dos_id:1}}
+				);
 			if (business.county)
-				return DataNY.Coll.Businesses.find({county: business.county});
+				return DataNY.Coll.Businesses.find(
+					{county: business.county},
+					{sort:{dos_id:1}}
+				);
 			if (business.type)
-				return DataNY.Coll.Businesses.find({
-					entity_type: DataNY.Coll.Businesses.getType(business.type)
-				});
+				return DataNY.Coll.Businesses.find(
+					{entity_type: DataNY.Coll.Businesses.getType(business.type)},
+					{sort:{dos_id:1}}
+				);
 		}
 
 		//TODO

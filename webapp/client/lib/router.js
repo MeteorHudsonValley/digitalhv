@@ -87,7 +87,8 @@ Router.route('/businesses',{
 
   waitOn: function(){
     return Meteor.subscribe('MyBusinesses',{
-      limit:100
+      county:null,
+      limit:200
     });
   },
 
@@ -106,11 +107,17 @@ Router.route('/businesses',{
 Router.route('/businesses/county/:_id', {
   loadingTemplate: 'loading',
   waitOn: function(){
-    console.log("Subscribing with county=",this.params._id);
-    return Meteor.subscribe('MyBusinesses',{
-      county:this.params._id,
-      limit:100
-    });
+    if (this.params._id==="ALL"){
+      console.log("Redirecting for county=ALL");  
+      this.redirect('/businesses');
+    }
+    else {    
+      console.log("Subscribing with county=",this.params._id);  
+      return Meteor.subscribe('MyBusinesses',{
+        county:this.params._id,
+        limit:100 
+      });
+    }
   },
 
   action: function(){

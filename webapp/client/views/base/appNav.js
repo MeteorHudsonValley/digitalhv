@@ -5,8 +5,8 @@ var options = {};
 
 options.menu = [
 	{ name: "Businesses", link:"/businesses", icon:"fa-bank" },
-	{ name: "Restaurants", link:"/restaurants", icon:"fa-beer" },
-	{ name: "Go Local", link:"/local", icon:"fa-leaf" },
+	/*{ name: "Restaurants", link:"/restaurants", icon:"fa-beer" },*/
+	{ name: "Local", link:"/local", icon:"fa-leaf" },
 	{ name: "Events", 	link:"/events", icon:"fa-calendar" },
 	{ name: "People", link:"/people", icon:"fa-user" },
 	{ name: "Jobs", link:"/jobs", icon:"fa-bullhorn" },

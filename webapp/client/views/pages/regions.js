@@ -35,11 +35,12 @@ Template.regionHeader.helpers({
 	count: function(){
 		var counts = {
 			businesses: 0,
-			restaurants: 0,
+			//restaurants: 0,
 			local: 0,
 			events: 0,
 			people: 0,
-			jobs: 0
+			jobs: 0,
+			apps:0
 		};
 
 		// TODO: Check context, return relevant number of 
